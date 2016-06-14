@@ -5,7 +5,8 @@ JavaScript Intro to Functions Lab
 
 1. Practice writing functions
 2. Explain basics of working with strings
-3. Explain basics of working with numbers
+3. Explain the difference between `return` and loggin
+4. Practice using `return` and `console.log()`
 
 ## Introduction
 
