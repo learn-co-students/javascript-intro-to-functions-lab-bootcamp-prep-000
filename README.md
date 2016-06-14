@@ -144,7 +144,3 @@ Now it's your turn to get the rest of the tests to pass. Note that some of them 
 Oh, lastly: just like `.toUpperCase()` changes any string to all uppercase in JavaScript, `.toLowerCase()` (e.g., `'HELLO'.toLowerCase()`) changesany string to all lowercase.
 
 Good luck! When you're finished, be sure to run `learn submit`!
-
-## Resources
-
-- [npm](https://npmjs.org)
