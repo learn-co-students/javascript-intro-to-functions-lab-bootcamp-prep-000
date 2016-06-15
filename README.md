@@ -10,26 +10,9 @@ JavaScript Intro to Functions Lab
 
 ## Introduction
 
-Welcome to your first JavaScript lab! You'll notice a few new things in this lesson that we haven't encountered before. Don't worry, we'll walk you through them.
+Welcome to the JavaScript functions lab! You'll notice a few new things in this lesson that we haven't encountered before. Don't worry, we'll walk you through them.
 
-### Structure
-
-The structure of this lab — where its files and folders are located — looks roughly like the following:
-
-``` shell
-├── CONTRIBUTING.md
-├── LICENSE.md
-├── README.md
-├── index.js
-├── node_modules/
-├── package.json
-└── test
-    └── index-test.js
-```
-
-All labs will more or less have the same structure. (And READMEs, for that matter, will still have CONTRIBUTING.md, LICENSE.md, and README.md files.)
-
-`index.js` might be called something else (something more descriptive) in other labs, and so `test/index-test.js` would be renamed accordingly. But `index.js` is also descriptive in its own right, defining something of an entry point for finding one's way around the app. This is often the file where you will write your code. (Later on, we'll introduce `index.html` and `index.css` — you'll have to update or refer to these files sometimes, too!)
+Even if you've walked through some of this material before, it's a good idea to review as we code-along — we're writing functions now, after all.
 
 ### Code-along
 
