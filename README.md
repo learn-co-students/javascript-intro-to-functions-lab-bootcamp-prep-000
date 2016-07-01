@@ -18,7 +18,7 @@ Even if you've walked through some of this material before, it's a good idea to 
 
 For now, open up `index.js` in your text editor. You should see, well, nothing. We'll fix that soon.
 
-Now upon up `test/index-test.js`. Hey, there's something! What's all of this stuff doing?
+Now open up `test/index-test.js`. Hey, there's something! What's all of this stuff doing?
 
 At the very top of the file, you'll see
 
@@ -127,3 +127,5 @@ Now it's your turn to get the rest of the tests to pass. Note that some of them 
 Oh, lastly: just like `.toUpperCase()` changes any string to all uppercase in JavaScript, `.toLowerCase()` (e.g., `'HELLO'.toLowerCase()`) changesany string to all lowercase.
 
 Good luck! When you're finished, be sure to run `learn submit`!
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/javascript-intro-to-functions-lab'>Intro to Functions Lab</a> on Learn.co and start learning to code for free.</p>
