@@ -5,37 +5,20 @@ JavaScript Intro to Functions Lab
 
 1. Practice writing functions
 2. Explain basics of working with strings
-3. Explain the difference between `return` and loggin
+3. Explain the difference between `return` and logging
 4. Practice using `return` and `console.log()`
 
 ## Introduction
 
-Welcome to your first JavaScript lab! You'll notice a few new things in this lesson that we haven't encountered before. Don't worry, we'll walk you through them.
+Welcome to the JavaScript functions lab! You'll notice a few new things in this lesson that we haven't encountered before. Don't worry, we'll walk you through them.
 
-### Structure
-
-The structure of this lab — where its files and folders are located — looks roughly like the following:
-
-``` shell
-├── CONTRIBUTING.md
-├── LICENSE.md
-├── README.md
-├── index.js
-├── node_modules/
-├── package.json
-└── test
-    └── index-test.js
-```
-
-All labs will more or less have the same structure. (And READMEs, for that matter, will still have CONTRIBUTING.md, LICENSE.md, and README.md files.)
-
-`index.js` might be called something else (something more descriptive) in other labs, and so `test/index-test.js` would be renamed accordingly. But `index.js` is also descriptive in its own right, defining something of an entry point for finding one's way around the app. This is often the file where you will write your code. (Later on, we'll introduce `index.html` and `index.css` — you'll have to update or refer to these files sometimes, too!)
+Even if you've walked through some of this material before, it's a good idea to review as we code-along — we're writing functions now, after all.
 
 ### Code-along
 
 For now, open up `index.js` in your text editor. You should see, well, nothing. We'll fix that soon.
 
-Now upon up `test/index-test.js`. Hey, there's something! What's all of this stuff doing?
+Now open up `test/index-test.js`. Hey, there's something! What's all of this stuff doing?
 
 At the very top of the file, you'll see
 
@@ -141,10 +124,28 @@ Hey! We got one to pass!
 
 Now it's your turn to get the rest of the tests to pass. Note that some of them require you to use `console.log()` instead of `return` — follow the guidance of the tests!
 
-Oh, lastly: just like `.toUpperCase()` changes any string to all uppercase in JavaScript, `.toLowerCase()` (e.g., `'HELLO'.toLowerCase()`) changesany string to all lowercase.
+Note that just like `.toUpperCase()` changes any string to all uppercase in JavaScript, `.toLowerCase()` (e.g., `'HELLO'.toLowerCase()`) changesany string to all lowercase.
+
+Additionally, how do we check if a string is all lowercase or all uppercase?
+
+```javascript
+var uppercase = "HELLO!"
+
+uppercase.toUpperCase() === uppercase // true
+
+var lowercase = 'hello!'
+
+lowercase.toLowerCase() === lowercase // true
+
+var mixedCase = 'Hi there!'
+
+mixedCase.toLowerCase() === mixedCase // false
+
+mixedCase.toUpperCase() === mixedCase // false
+```
+
+We can simply check whether the string is the same when we convert it to uppercase or lowercase! If it's the same, then it was already in that case; if not, then it's either in the other case or it's mixed case.
 
 Good luck! When you're finished, be sure to run `learn submit`!
 
-## Resources
-
-- [npm](https://npmjs.org)
+<p class='util--hide'>View <a href='https://learn.co/lessons/javascript-intro-to-functions-lab'>Intro to Functions Lab</a> on Learn.co and start learning to code for free.</p>
