@@ -124,6 +124,8 @@ Hey! We got one to pass!
 
 Now it's your turn to get the rest of the tests to pass. Note that some of them require you to use `console.log()` instead of `return` — follow the guidance of the tests!
 
+In this lab, we're writing functions that "speak" at different volumes — they whisper or they shout. We're going to use what we learn practicing speaking in this way to write another function, `sayHiToGrandma()`, which takes our new-found speaking ability to greet our grandmother. She's not exactly deaf, but whispering can be a bit difficult. But she'll always hear you if you say, "I love you, Grandma."
+
 Note that just like `.toUpperCase()` changes any string to all uppercase in JavaScript, `.toLowerCase()` (e.g., `'HELLO'.toLowerCase()`) changesany string to all lowercase.
 
 Additionally, how do we check if a string is all lowercase or all uppercase?
