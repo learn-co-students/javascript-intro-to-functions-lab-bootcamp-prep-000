@@ -41,16 +41,6 @@ describe('index', () => {
 
 `describe` is a function provided by our test runner (in this case, we're using [Mocha](https://mochajs.org/)) — it's basically a container for our tests.
 
-Then we have
-
-``` javascript
-jsdom({
-    src: fs.readFileSync(path.resolve(__dirname, '..', 'index.js'), 'utf-8')
-})
-```
-
-This line reads `index.js` (remember how we said we'd modify that?) and adds its code to the execution environment.
-
 After that, there's another `describe()`:
 
 ``` javascript
