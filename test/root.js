@@ -5,11 +5,18 @@ const jsdom = require('jsdom');
 const path = require('path');
 
 before(function(done) {
-  const babelResult = babel.transformFileSync(path.resolve(__dirname, '..', 'index.js'), {
-    presets: ['es2015']
-  });
+  const babelResult = babel.transformFileSync(
+    path.resolve(__dirname, '..', 'index.js'), {
+      presets: ['es2015']
+    }
+  );
 
-  jsdom.env('<div></div>', [], {src: babelResult.code}, (err, window) => {
+  const html = path.resolve(__dirname, '..', 'index.html')
+
+  jsdom.env(html, [], {
+    src: babelResult.code,
+    virtualConsole: jsdom.createVirtualConsole().sendTo(console)
+  }, (err, window) => {
     if (err) {
       return done(err);
     }
