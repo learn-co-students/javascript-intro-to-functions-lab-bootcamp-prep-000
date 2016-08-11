@@ -56,7 +56,7 @@ These internal `describe()` calls are used for _describing_ the functions that y
 Finally, we have
 
 ``` javascript
-expect(shout('hello')).to.equal('HELLO')
+expect(shout('hello')).toEqual('HELLO')
 ```
 
 which says that it _expects_ a call to `shout()` with the string `'hello'` will `equal` the string `'HELLO'`. This is the actual test — otherwise called a spec, expectation, or assertion — for this function. We can have more than one test per function, but let's start with this one.
@@ -116,7 +116,7 @@ Now it's your turn to get the rest of the tests to pass. Note that some of them 
 
 In this lab, we're writing functions that "speak" at different volumes — they whisper or they shout. We're going to use what we learn practicing speaking in this way to write another function, `sayHiToGrandma()`, which takes our new-found speaking ability to greet our grandmother. She's not exactly deaf, but whispering can be a bit difficult. But she'll always hear you if you say, "I love you, Grandma."
 
-Note that just like `.toUpperCase()` changes any string to all uppercase in JavaScript, `.toLowerCase()` (e.g., `'HELLO'.toLowerCase()`) changesany string to all lowercase.
+Note that just like `.toUpperCase()` changes any string to all uppercase in JavaScript, `.toLowerCase()` (e.g., `'HELLO'.toLowerCase()`) changes any string to all lowercase.
 
 Additionally, how do we check if a string is all lowercase or all uppercase?
 
