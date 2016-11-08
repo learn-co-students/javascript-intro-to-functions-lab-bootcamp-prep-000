@@ -25,7 +25,5 @@ switch(string) {
     break;
   case string.toLowerCase():
     return "I can't hear you!"
-
-
 }
 }
