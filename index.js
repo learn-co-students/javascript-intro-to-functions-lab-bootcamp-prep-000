@@ -25,5 +25,8 @@ switch(string) {
     break;
   case string.toLowerCase():
     return "I can't hear you!"
+    break;
+
+    default: "Come on don't be shy, say 'Hi!'";
 }
 }
