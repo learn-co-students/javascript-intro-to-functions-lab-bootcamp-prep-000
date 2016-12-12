@@ -14,19 +14,11 @@ function logWhisper(string){
 }
 
 function sayHiToGrandma(greeting){
-  if(greeting === "I love you, Grandma."){
-    return "I love you, too."
-  }
-}
-
-function sayHiToGrandma(greeting){
   if(greeting === greeting.toLowerCase()){
     return "I can't hear you!"
-  }
-}
-
-function sayHiToGrandma(greeting){
-  if(greeting === greeting.toUpperCase()){
+  }else if(greeting === greeting.toUpperCase()){
     return "YES INDEED!"
+        }else if(greeting === "I love you, Grandma."){
+    return "I love you, too."
   }
 }
