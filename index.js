@@ -22,19 +22,21 @@ function logWhisper(string){
 
 function sayHiToGrandma(string){
 
-  if(string.toEqual("I love you,Grandma."))
-  {
-    return "I love you, too.";
-  }   
-  if(string.toLowerCase())
+  if(string.toUpperCase()=== string){
+    
+  return "YES INDEED!";
+}
+  
+  if(string.toLowerCase()=== string)
   {
     return "I can't hear you!";
   }
 
-  if(string.toUpperCase()){
-    
-  return "Yes INDEED!";
+
+if(string=="I love you, Grandma.")
+{
+  return "I love you, too.";
 }
-return undefined;
+return "I can't hear you!";
 
 }
