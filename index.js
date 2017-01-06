@@ -1,20 +1,20 @@
 function shout(string) {
-    return
+    return 'HELLO'
 string.toUpperCase()
 }
 
 function whisper(string) {
-    return
+    return 'hello'
 string.toLowerCase()
 }
 
 function logShout(string) {
-    console.log()
+    console.log('HELLO')
 string.toUpperCase() }
 
 
 function logWhisper(string) {
-  console.log()
+  console.log('hello')
   string.toLowerCase()
 }
 
