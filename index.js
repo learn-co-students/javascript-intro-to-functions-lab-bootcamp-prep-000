@@ -39,3 +39,9 @@ function sayHiToGrandma(string){
     }
 
 }
+
+function happyHolidays() {
+
+  return "Happy holidays!";
+
+}
