@@ -96,7 +96,7 @@ So let's try it with our `shout()` function:
 
 ``` javascript
 function shout(string) {
-  return string.toUpperCase()
+  return string.mixedCase()
 }
 ```
 
