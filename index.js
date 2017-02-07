@@ -23,5 +23,23 @@ if (string === GmaLove)
     return "I love you, too."//Love Grandma return
     /**
     Not sure if I should be checking cases for these or ok to return as is. 
+    POST SOLUTION: Can compare string within if statement, no need to declare variables
+    Put final return clause if all conditions are false in for future ref:
+    
+function sayHiToGrandma(string) {
+  if (string.toLowerCase() === string) {
+    return "I can't hear you!"
+  }
+
+  if (string.toUpperCase() === string) {
+    return "YES INDEED!"
+  }
+
+  if (string === "I love you, Grandma.") {
+    return "I love you, too."
+  }
+
+  return "Are you eating enough?"
+}
     **/
 }
