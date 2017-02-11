@@ -18,30 +18,30 @@ Even if you've walked through some of this material before, it's a good idea to 
 
 For now, open up `index.js` in your text editor. You should see, well, nothing. We'll fix that soon.
 
-Now open up `test/index-test.js`. Hey, there's something! What's all of this stuff doing?
+Now open up `test/root.js`. Hey, there's something! What's all of this stuff doing?
 
 At the very top of the file, you'll see
 
-``` javascript
-const expect = require('expect')
-const fs = require('fs')
-const jsdom = require('mocha-jsdom')
-const path = require('path')
 ```
+global.expect = require('expect');
+ 
+const babel = require('babel-core');
+const jsdom = require('jsdom');
+const path = require('path');
+```
+This might be a bit bewildering, but all we're doing is referencing different libraries that help us run your tests. A library is code that someone else (usually multiple someone elses) wrote for our use. Note that require won't work out of the box in the browser. We're actually running our tests in a different environment. (Remember the sandbox analogy from earlier? It's just like that.)
 
-This might be a bit bewildering, but all we're doing is referencing different _libraries_ that help us run your tests. A library is code that someone else (usually multiple someone elses) wrote for our use. Note that `require` won't work out of the box in the browser. We're actually running our tests in a different _environment_. (Remember the sandbox analogy from earlier? It's just like that.)
-
-A little farther down the page, you'll see
+If you go to `test/index-test.js`, you'll see
 
 ``` javascript
-describe('index', () => {
+describe('shout(string)', () => {
   // there's stuff in here, too
 })
 ```
 
 `describe` is a function provided by our test runner (in this case, we're using [Mocha](https://mochajs.org/)) — it's basically a container for our tests.
 
-After that, there's another `describe()`:
+Let's take a closer look at that `describe()`:
 
 ``` javascript
 describe('shout(string)', () => {
@@ -56,10 +56,11 @@ These internal `describe()` calls are used for _describing_ the functions that y
 Finally, we have
 
 ``` javascript
-expect(shout('hello')).to.equal('HELLO')
+expect(shout('hello')).toEqual('HELLO')
 ```
 
 which says that it _expects_ a call to `shout()` with the string `'hello'` will `equal` the string `'HELLO'`. This is the actual test — otherwise called a spec, expectation, or assertion — for this function. We can have more than one test per function, but let's start with this one.
+
 
 ### Running the Tests
 
