@@ -28,10 +28,6 @@ function sayHiToGrandma(string) {
   string = uppercase
   return "YES INDEED!";
 
-  var "I can\'t hear you!"
-  "I can\'t hear you!" = 'YES INDEED!';
-
-
   string = "I love you, Grandma."
   return "I love you, too."
 }
