@@ -104,7 +104,7 @@ function shout(string) {
 And run our tests again:
 
 ``` javascript
-learn
+learn test
 ```
 
 ![first test passing](https://curriculum-content.s3.amazonaws.com/skills-based-js/functions_first_test_passing.png)
