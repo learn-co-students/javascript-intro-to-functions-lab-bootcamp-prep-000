@@ -1,0 +1,75 @@
+
+> java-script-intro-to-functions-lab@0.1.0 test /home/jayvalentine87-51727/code/labs/javascript-intro-to-functions-lab-bootcamp-prep-000
+> mocha -R mocha-multi --reporter-options nyan=-,json=.results.json
+
+ 0
+ 0
+ 0
+
+[4A[5C-
+[5C-
+[5C-
+[5C-
+[4A[6C_,------,
+[6C_|   /\_/\ 
+[6C^|__( - .-) 
+[6C  ""  "" 
+[4A 0
+ 1
+ 0
+
+[4A[5C-_
+[5C-_
+[5C-_
+[5C-_
+[4A[7C_,------,
+[7C_|  /\_/\ 
+[7C~|_( x .x) 
+[7C ""  "" 
+[4A
+
+
+
+
+  0 passing (479ms)
+  1 failing
+
+  1)  "before all" hook:
+     SyntaxError: /home/jayvalentine87-51727/code/labs/javascript-intro-to-functions-lab-bootcamp-prep-000/index.js: Unexpected token (22:2)
+    20 | } else  {
+    21 |   return "YES INDEED!";
+  > 22 | } else if ("I love you, Grandma") {
+       |   ^
+    23 |   return ("I love you, too");
+    24 |  }
+    25 | }
+      at Parser.pp$5.raise (node_modules/babylon/lib/index.js:4373:13)
+      at Parser.pp.unexpected (node_modules/babylon/lib/index.js:1716:8)
+      at Parser.pp$3.parseExprAtom (node_modules/babylon/lib/index.js:3683:12)
+      at Parser.pp$3.parseExprSubscripts (node_modules/babylon/lib/index.js:3427:19)
+      at Parser.pp$3.parseMaybeUnary (node_modules/babylon/lib/index.js:3407:19)
+      at Parser.pp$3.parseExprOps (node_modules/babylon/lib/index.js:3337:19)
+      at Parser.pp$3.parseMaybeConditional (node_modules/babylon/lib/index.js:3314:19)
+      at Parser.pp$3.parseMaybeAssign (node_modules/babylon/lib/index.js:3277:19)
+      at Parser.pp$3.parseExpression (node_modules/babylon/lib/index.js:3239:19)
+      at Parser.pp$1.parseStatement (node_modules/babylon/lib/index.js:1861:19)
+      at Parser.pp$1.parseBlockBody (node_modules/babylon/lib/index.js:2223:21)
+      at Parser.pp$1.parseBlock (node_modules/babylon/lib/index.js:2202:8)
+      at Parser.pp$3.parseFunctionBody (node_modules/babylon/lib/index.js:4154:22)
+      at Parser.pp$1.parseFunction (node_modules/babylon/lib/index.js:2341:8)
+      at Parser.pp$1.parseFunctionStatement (node_modules/babylon/lib/index.js:2008:15)
+      at Parser.pp$1.parseStatement (node_modules/babylon/lib/index.js:1794:19)
+      at Parser.pp$1.parseBlockBody (node_modules/babylon/lib/index.js:2223:21)
+      at Parser.pp$1.parseTopLevel (node_modules/babylon/lib/index.js:1733:8)
+      at Parser.parse (node_modules/babylon/lib/index.js:1628:17)
+      at parse (node_modules/babylon/lib/index.js:7083:37)
+      at File.parse (node_modules/babel-core/lib/transformation/file/index.js:527:15)
+      at File.parseCode (node_modules/babel-core/lib/transformation/file/index.js:612:20)
+      at node_modules/babel-core/lib/transformation/pipeline.js:49:12
+      at File.wrap (node_modules/babel-core/lib/transformation/file/index.js:574:16)
+      at Pipeline.transform (node_modules/babel-core/lib/transformation/pipeline.js:47:17)
+      at Object.transformFileSync (node_modules/babel-core/lib/api/node.js:152:10)
+      at Context.<anonymous> (test/root.js:8:29)
+
+
+
