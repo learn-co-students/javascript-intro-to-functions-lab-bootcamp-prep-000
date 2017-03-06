@@ -1,27 +1,15 @@
-function shout(string) {
-  return string.toUpperCase()
+function happyHolidays() {
+  return "Happy holidays!"
 }
 
-function whisper(string) {
-  return string.toLowerCase()
+function happyHolidaysTo(name) {
+  return `Happy holidays, ${name}!`
 }
 
-function logShout(string) {
-  console.log(string.toUpperCase())
+function happyHolidayTo(holiday, name) {
+  return `Happy ${holiday}, ${name}!`
 }
 
-function logWhisper(string) {
-  console.log(string.toLowerCase())
-}
-
-function sayHiToGrandma(string) {
-  if (string.toLowerCase() === string) {
-    return "I can't hear you!"
-  }
-  else if (string.toUpperCase() === string) {
-    return "YES INDEED!"
-  }
-  else if (string === "I love you, Grandma.") {
-    return "I love you, too."
-  }
+function holidayCountdown(holiday, days) {
+  return `It's ${days} until ${holiday}!`
 }
