@@ -1,4 +1,26 @@
-
+function shout(string){
+  return string.toUpperCase();
+}
+function whisper(string){
+  return string.toLowerCase();
+}
+ function logShout(string){
+   console.log(string.toUpperCase());
+ }
+ function logWhisper(string){
+   console.log(string.toLowerCase());
+ }
+ function sayHiToGrandma(string){
+   if (string.toUpperCase()===string){
+     return ("YES INDEED!");
+   }
+   else if (string.toLowerCase()=== string){
+     return ("I can\'t hear you!");
+   }
+   else if (string === "I love you, Grandma."){
+   return ('I love you, too.');
+ }
+ }
 describe('shout(string)', function() {
   it('receives one argument and returns it in all caps', function() {
     expect(shout('hello')).toEqual('HELLO')
@@ -44,7 +66,7 @@ describe('sayHiToGrandma(string)', function() {
     expect(sayHiToGrandma('HELLO')).toEqual("YES INDEED!")
   })
 
-  it('returns "I love you, too." if `string` is "I love you, Grandma."`', function() {
+  it('returns "I love you, too." if `string` is "I love you, Grandma."', function() {
     expect(sayHiToGrandma("I love you, Grandma.")).toEqual("I love you, too.")
   })
 })
