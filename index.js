@@ -22,8 +22,10 @@ function sayHiToGrandma(string) {
   return 'YES INDEED!'.toUpperCase()
 }
 
-function sayHiToGrandma('I love you, Grandma') {
+function sayHiToGrandma(string) {
+  string = 'I love you, Grandma.'; {
   return 'I love you too.'
+}
 }
 
 function logShout(string) {
