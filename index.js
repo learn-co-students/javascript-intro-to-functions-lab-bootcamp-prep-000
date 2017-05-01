@@ -1,13 +1,9 @@
-``` javascript
-
-var string = "hola com estaś"
-function shout(string) {
+function shout(string){
   return string.toUpperCase()
 }
 
 function whisper(string){
   return string.toLowerCase()
-
 }
 
 function logShout(string){
@@ -15,7 +11,7 @@ function logShout(string){
 }
 
 function logWhisper(string){
-  console.log(string.toUpperCase())
+  console.log(string.toLowerCase())
 }
 
 function sayHiToGrandma(string){
@@ -25,8 +21,7 @@ function sayHiToGrandma(string){
       console.log("YES INDEED!")
     }
   }
-  if (string = "I love you"){
+  if (string === "I love you, Grandma"){
     console.log("I love you, too.")
   }
 }
-```
