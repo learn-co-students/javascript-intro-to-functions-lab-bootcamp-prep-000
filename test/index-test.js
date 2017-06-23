@@ -10,6 +10,7 @@ describe('whisper(string)', function() {
     expect(whisper('HELLO')).toEqual('hello')
   })
 })
+  whisper('hello')
 
 describe('logShout(string)', function() {
   it('calls console.log() its one argument in all caps', function() {
