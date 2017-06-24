@@ -12,6 +12,10 @@ mixedCase.toLowerCase() === mixedCase
 
 mixedCase.toUpperCase() === mixedCase
 
+var loveGrandma = "I love you, Grandma."
+
+loveGrandma.toGrandma() === loveGrandma
+
 function shout(string) {
   return string.toUpperCase()
 }
@@ -24,12 +28,13 @@ function logShout(string) {
 function logWhisper(string) {
   console.log('hello'); string.toLowerCase()
 }
-function sayHiToGrandma(string) {
-  return string.toUpperCase()
-}
-function sayHiToGrandma(string) {
-  return string.toUpperCase()
-}
-function sayHiToGrandma(string) {
-  return string.("I love you, Grandma.")
-}
+function sayHiToGrandma(string){
+  if (string === string.toLowerCase()) {
+    return("I cant hear you!")
+  }
+  if (string === string.toUpperCase()) {
+    return("YES INDEED!")
+  }
+  if (string === string.toGrandma()) {
+    return("I love you, too")
+  }
