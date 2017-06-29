@@ -18,7 +18,7 @@ Even if you've walked through some of this material before, it's a good idea to 
 
 For now, open up `index.js` in your text editor. You should see, well, nothing. We'll fix that soon.
 
-Now open up `test/index-test.js`. Hey, there's something! What's all of this stuff doing?
+Now open up `test/root.js`. Hey, there's something! What's all of this stuff doing?
 
 At the very top of the file, you'll see
 
