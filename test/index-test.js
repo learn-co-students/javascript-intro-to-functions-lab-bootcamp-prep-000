@@ -31,7 +31,6 @@ describe('logWhisper(string)', function() {
     expect(spy).toHaveBeenCalledWith('hello')
 
     console.log.restore()
-  })
 })
 
 describe('sayHiToGrandma(string)', function() {
