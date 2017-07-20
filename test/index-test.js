@@ -1,7 +1,7 @@
 
-describe('shout(string)', function() {
-  it('receives one argument and returns it in all caps', function() {
-    expect(shout('hello')).toEqual('HELLO')
+describe('shout(string)', () => {
+  it('receives one argument and returns it in all caps', () => {
+    // we'll get to this in a se
   })
 })
 
