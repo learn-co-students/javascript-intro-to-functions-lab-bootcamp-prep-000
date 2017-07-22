@@ -9,3 +9,11 @@ function whisper(string) {
 function logShout(string) {
     console.log('HELLO')             // idk
 }
+
+function logWhisper(string) {
+  console.log('hello')
+}
+
+function sayHiToGrandma(string) {
+  return "I can't hear you!"
+}
