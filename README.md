@@ -35,7 +35,7 @@ This might be a bit bewildering, but all we're doing is referencing different _l
 If you go to `test/index-test.js`, you'll see
 
 ``` javascript
-describe('shout(string)', () => {
+describe('shout(string)', function() => {
   // there's stuff in here, too
 })
 ```
@@ -45,8 +45,8 @@ describe('shout(string)', () => {
 Let's take a closer look at that `describe()`:
 
 ``` javascript
-describe('shout(string)', () => {
-  it('receives one argument and returns it in all caps', () => {
+describe('shout(string)', function() => {
+  it('receives one argument and returns it in all caps', function() => {
     // we'll get to this in a sec
   })
 })
