@@ -19,11 +19,11 @@ function sayHiToGrandma(string) {
   var case2 = "YES INDEED!"
   var case3 = "I love you, too."
 
-  if (string === "hello") {
+  if (string.toLowerCase() === string) {
     return case1
-  }else if (string === "HELLO") {
+  }else if (string.toUpperCase() === string) {
     return case2
-  }else if (string === "I love you, Grandma.") {
+  }else if (string.toLowerCase() != string && string.toUpperCase() != string) {
     return case3
   }
 }
