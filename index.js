@@ -9,7 +9,7 @@ var lowercase = 'hello!'
 
 lowercase.toLowerCase() === lowercase
 
-var mixedCse = 'Hi there!'
+var mixedCase = 'Hi there!'
 
 mixedCase.toLowerCase() === mixedCase
 
