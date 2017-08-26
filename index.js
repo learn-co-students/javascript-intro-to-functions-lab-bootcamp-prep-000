@@ -13,9 +13,10 @@ function logShout(string) {
   console.log(shout(string))
   }
 
-
-//test #3 is checking that when you input 'hello', you're getting 'HELLO'
-//test #4 is checking that when you input 'HELLO', you're getting 'hello'
+function logWhisper(string) {
+  whisper(string)
+  console.log(whisper(string))
+}
 
 function sayHiToGrandma(string) {
   if (string === string.toLowerCase()) {
