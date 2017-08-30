@@ -11,12 +11,13 @@ function logWhisper(conquiet) {
  console.log(conquiet.toLowerCase())
 }
 function sayHiToGrandma(x) {
-  if (x === x.toLowerCase){
+  if (x === x.toLowerCase()){
     return "I can't hear you!"
   }
-  if (x === x.toUpperCase) {
+  if (x === x.toUpperCase()) {
     return "YES INDEED!"
-  if (x === "I love you, Grandma"){
+  }
+  if (x === "I love you, Grandma."){
     return "I love you, too."
   }
 }
