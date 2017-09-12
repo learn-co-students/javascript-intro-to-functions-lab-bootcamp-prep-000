@@ -1,6 +1,15 @@
+function shout(hello){
+  return hello.toUpperCase()
+}
 
-describe('shout(string)', function() {
-  it('receives one argument and returns it in all caps', function() {
+function whisper(HELLO){
+  return HELLO.toLowerCase()
+}
+
+
+}
+describe('shout(string)', function () {
+  it('receives one argument and returns it in all caps', function () {
     expect(shout('hello')).toEqual('HELLO')
   })
 })
