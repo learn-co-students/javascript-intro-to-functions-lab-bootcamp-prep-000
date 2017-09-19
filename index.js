@@ -24,4 +24,6 @@ function sayHiToGrandma(string) {
   if(string === "I love you, Grandma.") {
     return "I love you, too.";
   }
+
+  return "This text should be returned if all the ifs above failed cause this function has to return a string in its decoration";
 }
