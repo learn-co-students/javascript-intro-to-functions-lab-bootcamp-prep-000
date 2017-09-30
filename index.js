@@ -29,5 +29,4 @@ function sayHiToGrandma(string) {
   else {
     console.log("fail");
   }
-
 }
