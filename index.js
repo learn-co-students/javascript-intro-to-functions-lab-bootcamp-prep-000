@@ -9,3 +9,7 @@ function whisper(string) {
 function logShout(string) {
   console.log('HELLO')
 }
+
+function logWhisprer(string) {
+  console.log('hello')
+}
