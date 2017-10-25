@@ -7,13 +7,13 @@ function whisper(string){
 }
 
 function logShout(string){
-  if((string='HELLO')&&(string.toUpperCase()===string)){
+  if(string==='HELLO'){
     console.log(string);
   }
 }
 
 function logWhisper(string){
-  if(string='hello'){
+  if(string==='hello'){
     console.log(string);
   }
 }
