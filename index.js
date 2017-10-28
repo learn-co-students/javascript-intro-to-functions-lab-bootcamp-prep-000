@@ -2,10 +2,19 @@ function shout(string) {
   return string.toUpperCase()
 }
 
+/*
+  I defined the function shout that accepts a string as a parameter, I called this parameter string,
+  when the function is called, it returns to us the value of the string in all upcased characters.
+*/
+
 function whisper(string) {
   return string.toLowerCase()
 }
 
 function logShout(string) {
-  console.log(string.toUpperCase())
+  console.log(shout(string))
+}
+
+function logWhisper(string) {
+  console.log(whisper(string))
 }
