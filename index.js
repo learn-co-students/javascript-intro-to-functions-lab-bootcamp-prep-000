@@ -18,11 +18,8 @@ function logWhisper(string) {
   console.log('hello')
 }
 
-/* test 5
-function sayHiToGrandma(string) {
-  string.toLowerCase()
-}
-*/
+/* tests 5-7 -- NOTE: took a long time on this, had the right idea to use if statements at the start
+but lost faith when I couldn't interpret the errors correctly, got there in the end with some help */
 
 function sayHiToGrandma(string) {
   if (string.toLowerCase() === string) {
