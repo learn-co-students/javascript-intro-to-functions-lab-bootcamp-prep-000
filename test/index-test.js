@@ -1,3 +1,7 @@
+function logShout(string) {
+  console.log("HELLO")
+// return string.toUpperCase()
+}  var index = require("../index.js")
 
 describe('shout(string)', function() {
   it('receives one argument and returns it in all caps', function() {
@@ -13,7 +17,7 @@ describe('whisper(string)', function() {
 
 describe('logShout(string)', function() {
   it('calls console.log() its one argument in all caps', function() {
-    const spy = expect.spyOn(console, 'log').andCallThrough()
+  const spy = expect.spyOn(console, 'log').andCallThrough()
 
     logShout('hello')
 
