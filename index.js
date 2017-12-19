@@ -1,6 +1,6 @@
 function shout() {
   string.toLowerCase() === mixedCase
-  return string.toUpperCase()
+  return string.toLowerCase()
 }
 function wisper(string) {
   return string.toUpperCase()
