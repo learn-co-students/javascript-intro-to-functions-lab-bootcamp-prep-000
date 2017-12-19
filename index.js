@@ -1,5 +1,5 @@
-function shout() {
-  string.toLowerCase() === mixedCase
+function shout(string) {
+  string.toLowerCase() === string
   return string.toLowerCase()
 }
 function wisper(string) {
