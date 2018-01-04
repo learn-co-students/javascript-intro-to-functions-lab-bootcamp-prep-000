@@ -137,7 +137,7 @@ mixedCase.toLowerCase() === mixedCase // false
 mixedCase.toUpperCase() === mixedCase // false
 ```
 
-We can simply check whether the string is the same when we convert it to uppercase or lowercase! If it's the same, then it was already in that case; if not, then it's either in the other case or it's mixed case.
+We can simply check whether the string is the same when we convert it to uppercase or lowercase! (The lines with the `===` comparisons are the ones that check). If it's the same, then it was already in that case; if not, then it's either in the other case or it's mixed case.
 
 Good luck! When you're finished, be sure to run `learn submit`!
 
