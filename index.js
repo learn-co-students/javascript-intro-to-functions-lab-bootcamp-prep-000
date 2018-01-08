@@ -11,7 +11,7 @@ function shout(string){
 }
 
 function whisper(string){
-  return 'HELLO'.toLowerCase()
+  whisper.toLowerCase() === whisper
 }
 
 function logShout(string){
