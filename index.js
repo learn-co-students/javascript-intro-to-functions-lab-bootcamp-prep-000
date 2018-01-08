@@ -1,5 +1,5 @@
 var shut = "hello"
-var whipser = "HELLO"
+var whisper = "HELLO"
 var deaf = "I can't hear you!"
 var yes = "YES INDEED!"
 var luv = "I love you, Grandma."
@@ -7,30 +7,23 @@ var same = "I love you, too."
 
 
 function shout(string){
-  return shut.toUpperCase()
+  return 'hello'.toUpperCase()
 }
 
 function whisper(string){
-  return whipser.toLowerCase()
+  return 'HELLO'.toLowerCase()
 }
 
 function logShout(string){
-  console.log('hello'.toUpperCase())
+  console.log(shut.toUpperCase())
 }
 
-function logWhipster(string){
-  console.log('HELLO'.toLowerCase())
+function logWhisper(string){
+  console.log(whisper.toLowerCase())
 }
 
 function sayHiToGrandMa(string){
-  if (logWhisper) {
-    return deaf;
-  }
-  if (shut.toUpperCase()){
-    return yes;
-  }
-  else (luv){
-    return same;
-  }
-
+  console.log('deaf');
+  console.log('yes');
+  console.log('same');
 }
