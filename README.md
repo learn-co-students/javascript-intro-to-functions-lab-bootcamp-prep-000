@@ -1,3 +1,4 @@
+
 JavaScript Intro to Functions Lab
 ---
 
