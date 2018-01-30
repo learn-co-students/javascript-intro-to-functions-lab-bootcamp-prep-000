@@ -1,4 +1,7 @@
-var greet = "Hi GRANDMA"
+var greet = "HELLO"
+var audible = "YES INDEED!"
+var inaudible = "I can\'t hear you!"
+var ditto = "I love you, too."
 
 function shout(string){
   return string.toUpperCase()
@@ -18,17 +21,15 @@ function logWhisper(string){
 
 function sayHiToGrandma(greet){
 
-  if (greet.toUpperCase === greet) {
-    console.log("YES INDEED!");
+  if (shout(greet) === greet) {
+    return audible
   }
 
-  if (greet.toLowerCase === greet) {
-    console.log("I can\'t hear you!");
+  else if (whisper(greet) === greet) {
+    return inaudible
   }
 
   else {
-    console.log("I love you, too");
+    return ditto
   }
 }
-
-sayHiToGrandma()
