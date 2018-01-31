@@ -2,7 +2,9 @@ function shout(string){
   return string}
   'Hello!'.toUpperCase()
   function shout(string) { return string.toUpperCase()}
-function shout(string){return string}
-'Hello!'.toLowerCase()
-  function shour(string) { return string.toLowerCase()}
-  
+
+funtion sayHiToGrandma(string){
+  return string} 
+  'I love you grandma'.toLowerCase()
+  function sayHiToGrandma(string) {return string.toLowerCase()
+} 
