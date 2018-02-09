@@ -12,6 +12,13 @@ function sayHiToGrandma(string){
 function logShout(string){
   console.log(shout(string))
 }
+function logWhisper(string){
+  console.log(whisper(string))
+}
+function sayHiToGrandma(string){
+  console.log("Hi")
+ // ${Grandma, "I can't hear you!"}
+
 
   
   
