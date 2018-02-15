@@ -10,8 +10,8 @@ function logShout(string){
   console.log(shout(string))
 }
 
-function logWhisper(whisper){
-  console.log("hello")
+function logWhisper(greeting){
+  console.log(whisper(greeting))
 }
 
 function sayHiToGrandma(greeting){
