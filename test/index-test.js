@@ -1,3 +1,3 @@
-var uppercase = "HELLO!"
-
-uppercase.toUpperCase() === uppercase 
+function shout() {
+  return hello.toUpperCase()
+}
