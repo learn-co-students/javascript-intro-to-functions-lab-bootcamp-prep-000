@@ -60,6 +60,4 @@ whisper(string) {
   return string.toLowerCase()
 }
 
-
-expect(logshout('string')
-).toEqual('string')
+shout('HELLO')
