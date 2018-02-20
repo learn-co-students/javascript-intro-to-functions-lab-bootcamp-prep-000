@@ -58,6 +58,10 @@ console.log('HELLO')
 function
 whisper(string) {
   return string.toLowerCase()
+<<<<<<< HEAD
 }
 
 function
+=======
+}
+>>>>>>> 9b950141a396f2d6ce86c285fb59d524eaa765ec
