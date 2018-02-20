@@ -53,7 +53,13 @@ shout(string) {
 return string.toUpperCase()
 }
 
+console.log('HELLO')
+
 function
-logshout(string) {
-  return string.toUpperCase()
+whisper(string) {
+  return string.toLowerCase()
 }
+
+
+expect(logshout('string')
+).toEqual('string')
