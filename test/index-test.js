@@ -60,4 +60,4 @@ whisper(string) {
   return string.toLowerCase()
 }
 
-shout('HELLO')
+function
