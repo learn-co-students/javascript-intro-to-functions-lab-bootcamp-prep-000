@@ -67,6 +67,13 @@ console.log('hello')
 'hello'.toUppercase()//'HELLO!'
 }
 
+function
+logshout(string){
+return string("YES INDEED!")
+  
+}
 
-lowercase.toLowerCase('hello')
-uppercase.UpperCase('HELLO')
+function
+logwhisper(hello){
+  return string("I can't hear you!")
+}
