@@ -58,10 +58,15 @@ console.log('HELLO')
 function
 whisper(string) {
   return string.toLowerCase()
-<<<<<<< HEAD
+  
 }
 
-function
-=======
+function 
+logWhisper(hello){
+console.log('hello')
+'hello'.toUppercase()//'HELLO!'
 }
->>>>>>> 9b950141a396f2d6ce86c285fb59d524eaa765ec
+
+
+lowercase.toLowerCase('hello')
+uppercase.UpperCase('HELLO')
