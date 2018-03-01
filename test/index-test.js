@@ -43,11 +43,11 @@ describe('logWhisper(string)', function() {
 })
 
 string(toLowerCase){
-  output === string(toMixedCase);
+  return string(toLowerCase) === string(toMixedCase);
 }
 
 string(toUpperCase){
-  output === string(toMixedCase);
+  return string(toUpperCase) === string(toMixedCase);
 }
 
 describe('sayHiToGrandma(string)', function() {
@@ -60,7 +60,7 @@ describe('sayHiToGrandma(string)', function() {
   })
 
   it('returns "I love you, too." if `string` is "I love you, Grandma."`', function() {
-    expect(sayHiToGrandma("I love you, Grandma.")).toEqual("I love you, too.")
+    expect(sayHiToGrandma("I love you, Grandma.")).toEqual("I love you, too."))
 
 
 
