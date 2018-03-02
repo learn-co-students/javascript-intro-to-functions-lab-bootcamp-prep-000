@@ -13,9 +13,8 @@ describe('whisper(string)', function() {
   it('receives one argument and returns it in all lowercase', function() {
     expect(whisper('HELLO')).toEqual('hello')
   })
-
 function shout(string) {
-  return string.toUpperCase()
+  return string
 }
 
 describe('logShout(string)', function() {
@@ -30,6 +29,8 @@ describe('logShout(string)', function() {
   })
 })
 
+
+expect(shout('hello')).toEqual('HELLO')
 describe('logWhisper(string)', function() {
   it('calls console.log() its one argument in all lowercase', function() {
     const spy = expect.spyOn(console, 'log').andCallThrough()
@@ -48,14 +49,8 @@ function('sayHiToGrandma()'){
   console.log.restore()}
 } 
 
-var uppercase = "HELLO!"
-var lowercase = "hello"
-var mixedCase = "Hi there!"
-  returns "mixedCase" === '("toLowerCase")';
-  returns "mixedCase" === '("toUpperCase")';
-  
-}
-  
+console.log(sayHiToGrandma)
+
 describe('sayHiToGrandma(string)', function() {
   it('returns "I can't hear you!" if `string` is lowercase', function() {
     expect(sayHiToGrandma('hello')).toEqual("I can't hear you!")
