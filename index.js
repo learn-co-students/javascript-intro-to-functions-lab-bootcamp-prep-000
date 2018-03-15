@@ -7,5 +7,15 @@ function whisper(String){
 }
 
 function logshout(String){
-  consol.log(toLowerCase)
+  consol.log('String.toLowerCase')
 }
+
+function sayHiToGrandma(String){
+  return String.toLowerCase()
+}
+
+function sayHiToGrandma(String){
+  return String.toUpperCaseCase()
+  
+}
+
