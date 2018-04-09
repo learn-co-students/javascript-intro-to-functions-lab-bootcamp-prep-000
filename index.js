@@ -3,37 +3,41 @@
     expect(shout('hello')).toEqual('HELLO')
   })
 })
+
+
+describe('whisper(string)', function() {
+  it('receives one argument and returns it in all lowercase', function() {
+    expect(whisper('HELLO')).toEqual('hello')
+  })
+})
+
 */
 
 function shout(string) {
-    return 
-  'hello'.toUpperCase()
-
-
-{ var upperCase = "HELLO!"
-
-uppercase.toUpperCase() === uppercase
-
-  shout('hello!') }
-  
+  return 'Hello'.toUpperCase(); 
 }
-
-
-
-
-
-function whisper(string) {
-  return
-'HELLO'.toLowerCase()
-
-{ var lowercase = "hello!"
-
-lowercase.toLowerCase() === lowercase 
   
-  whisper('HELLO!') }
+  var uppercase = "HELLO"
+  
+  uppercase.toUpperCase() === uppercase
+  
+  shout('Hello')
+  
+  
+  
+ function whisper(string) {
+    return 'HELLO'.toLowerCase();
+  }
+  
+  var lowercase = "hello"
+  
+  lowercase.toLowerCase() === lowercase
+  
+  whisper('HELLO')
+  
 
 
-}
+
 
 
 
