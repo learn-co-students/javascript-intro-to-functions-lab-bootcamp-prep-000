@@ -1,17 +1,3 @@
-/* describe('shout(string)', function() {
-  it('receives one argument and returns it in all caps', function() {
-    expect(shout('hello')).toEqual('HELLO')
-  })
-})
-
-
-describe('whisper(string)', function() {
-  it('receives one argument and returns it in all lowercase', function() {
-    expect(whisper('HELLO')).toEqual('hello')
-  })
-})
-
-*/
 
 function shout(string) {
   return 'Hello'.toUpperCase(); 
@@ -25,6 +11,7 @@ function shout(string) {
   
   
   
+ 
  function whisper(string) {
     return 'HELLO'.toLowerCase();
   }
@@ -35,10 +22,41 @@ function shout(string) {
   
   whisper('HELLO')
   
+  
+  
+  function logShout(string) {
+    console.log('HELLO');
+  }
+  
+ logShout('hello')
+ 
+ 
+
+
+function logWhisper(string) {
+  console.log('hello');
+}
+
+logWhisper('HELLO')
 
 
 
 
+
+function sayHiToGrandma(string) {
+ if (string.toLowerCase() === string) {
+   return "I can't hear you!";
+ }
+ 
+ if (string.toUpperCase() === string) {
+   return "YES INDEED!";
+ }
+
+if (string === "I love you, Grandma.") {
+  return "I love you, too.";
+}
+
+}
 
 
 
