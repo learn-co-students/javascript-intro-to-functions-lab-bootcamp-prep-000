@@ -12,8 +12,10 @@ function shout(string) {
 
 { var upperCase = "HELLO!"
 
-uppercase.toUpperCase() === uppercase }
+uppercase.toUpperCase() === uppercase
 
+  shout('hello!') }
+  
 }
 
 
@@ -24,12 +26,12 @@ function whisper(string) {
   return
 'HELLO'.toLowerCase()
 
-
-
-
 { var lowercase = "hello!"
 
-lowercase.toLowerCase() === lowercase }
+lowercase.toLowerCase() === lowercase 
+  
+  whisper('HELLO!') }
+
 
 }
 
