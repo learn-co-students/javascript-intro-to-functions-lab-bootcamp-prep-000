@@ -1,3 +1,6 @@
+function shout(string) {
+  return string.toUpperCase()
+}
 global.expect = require('expect');
 
 const babel = require('babel-core');
