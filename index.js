@@ -1,4 +1,4 @@
-string = "Hello"
+var string = "hello"
 
 function shout(string) {
   return string.toUpperCase()
@@ -9,13 +9,11 @@ function whisper(string) {
 }
 
 function logShout(string) {
-  shout()
-  console.log(string)
+  console.log(shout(string))
 }
 
 function logWhisper(string) {
-  whisper()
-  console.log(string)
+  console.log(whisper(string))
 }
 
 function sayHiToGrandma(string) {
