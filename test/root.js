@@ -9,7 +9,7 @@ before(function(done) {
     path.resolve(__dirname, '..', 'index.js'), {
       presets: ['es2015']
     }
-  );
+  ); 
 
   const html = path.resolve(__dirname, '..', 'index.html')
 
