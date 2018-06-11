@@ -11,7 +11,7 @@ before(function(done) {
     }
   );
 
-  const html = path.resolve(__dirname, '..', 'index.html')
+  const html = path.resolve(__dirname, '..', 'index.html');
 
   jsdom.env(html, [], {
     src: babelResult.code,
