@@ -1,4 +1,4 @@
-JavaScript Intro to Functions Lab
+JavaScript Intro to Funct ff0hsions Lab
 ---
 
 ## Objectives
