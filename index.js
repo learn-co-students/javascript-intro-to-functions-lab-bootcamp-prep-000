@@ -4,20 +4,20 @@ function shout(string) {
 function whisper(string) {
   return string.toLowerCase()
 }
-function sayHiToGrandma(string) {
-  return string.toLowerCase("hello")
-  console.log("I can't hear you!")
+function logShout() {
+  console.log("HELLO")
 }
-var uppercase = "HELLO!"
- 
-uppercase.toUpperCase() === uppercase // true
- 
-var lowercase = 'hello!'
- 
-lowercase.toLowerCase() === lowercase // true
- 
-var mixedCase = 'Hi there!'
- 
-mixedCase.toLowerCase() === mixedCase // false
- 
-mixedCase.toUpperCase() === mixedCase // false
+function logWhisper() {
+  console.log("hello")
+}
+function sayHiToGrandma(string) {
+  if (string.toUpperCase() === string) {
+    return `YES INDEED!`
+  }
+  if (string.toLowerCase() === string) {
+    return `I can't hear you!`
+  }
+  if (string === "I love you, Grandma.") {
+    return `I love you, too.`
+  }
+}
