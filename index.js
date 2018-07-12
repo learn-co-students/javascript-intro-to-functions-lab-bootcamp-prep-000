@@ -1,5 +1,5 @@
-function shout(HiToGrandma) {return ('HiToGrandmaf!').toUpperCase()
+function shout(HiToGrandma) {return ('HiToGrandmaf!').toLowerCase()
   
 }
-var uppercase = ("HiToGrandma!")
+console.log .toLowerCase = ("HiToGrandma!")
 
