@@ -1,3 +1,3 @@
-function shout(HiToGrandma) {('HiToGrandma!').toLowerCase()
-console.log ("Hi,ToGrandma!") 
+function shout(Hello) {'Hello'.toLowerCase()
+console.log ('Hello!');
 }
