@@ -1,3 +1,5 @@
-function shout(Hello) {'Hello'; lowercase.toLowerCase()
-console.log ('Hello!');
-}
+console.log("sayHiToGrandma") 
+  it('returns "sayHiToGrandma!" if `string` is lowercase', function() {
+    expect(sayHiToGrandma('hello')).toEqual("I can't hear you!")
+  })
+  
