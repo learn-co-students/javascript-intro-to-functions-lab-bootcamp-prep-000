@@ -11,13 +11,13 @@ function whisper(string) {
 // NEW Error: Expected undefined to equal 'hello'
 
 function logShout(string) {
-//  console.log(string)
+  console.log(string)
 }
 // fixed ReferenceError: logShout is not defined by creating function
 // NEW Error: spy was never called with [ 'HELLO' ]
 
 function logWhisper(string) {
-//  console.log(string)
+  console.log(string)
 }
 // fixed ReferenceError: logWhisper is not defined by creating function
 // NEW Error: spy was never called with [ 'hello' ]
