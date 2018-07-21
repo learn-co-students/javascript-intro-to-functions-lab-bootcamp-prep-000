@@ -36,8 +36,12 @@ function logWhisper(string) {
 
 function sayHiToGrandma(string) {
   var inPhrase = string
-  var outPhrase = 
+  var outPhrase1 = 'I can\'t hear you!'
+  var outPhrase2 = 'YES INDEED!'
+  var outPhrase3 = 'I love you, too.'
+  
   console.log("Grandma tries to hear",aPhrase)
+  
   if (aPhrase === "I love you, Grandma.") {
     console.log("Grandma says I love you, too.") 
   } else if (aPhrase === "I LOVE YOU, GRANDMA!") {
