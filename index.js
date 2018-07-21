@@ -2,11 +2,13 @@ function shout(string) {
 //  return string.toUpperCase()
 }
 // fixed ReferenceError: shout is not defined by creating function
+// NEW Error: Expected undefined to equal 'HELLO'
 
 function whisper(string) {
 //  return string.toLowerCase()
 }
 // fixed ReferenceError: whisper is not defined by creating function
+// NEW Error: Expected undefined to equal 'hello'
 
 function logShout(string) {
 //  console.log(string)
