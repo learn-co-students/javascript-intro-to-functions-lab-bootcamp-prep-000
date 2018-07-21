@@ -39,7 +39,7 @@ function sayHiToGrandma(string) {
 // NEW Error: Expected undefined to equal 'YES INDEED!'
 // NEW Error: Expected undefined to equal 'I love you, too.'
 
-console.log("My test run first log line.")
+console.log("This is my first log line.")
 sayHiToGrandma(shout('Hello'))
 
 // End of code lines
