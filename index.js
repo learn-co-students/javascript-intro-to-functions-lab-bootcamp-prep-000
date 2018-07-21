@@ -1,5 +1,5 @@
 function shout(string) {
-  return string.toUpperCase()
+//  return string.toUpperCase()
 }
 // fixed ReferenceError: shout is not defined by creating function
 
