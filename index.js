@@ -16,7 +16,7 @@ function whisper(string) {
 // NEW Error: Expected undefined to equal 'hello'
 
 function logShout(string) {
-  console.log("shout argument is ${string}")
+  console.log('shout argument is ${string}')
 }
 // fixed ReferenceError: logShout is not defined by creating function
 // NEW Error: spy was never called with [ 'HELLO' ]
@@ -37,5 +37,6 @@ function sayHiToGrandma(string) {
 
 console.log("Starting to talk to Grandma.")
 sayHiToGrandma(shout('Hello'))
+sayHiToGrandma(whisper('Hello'))
 console.log("Finished talking to Grandma.")
 // End of code lines
