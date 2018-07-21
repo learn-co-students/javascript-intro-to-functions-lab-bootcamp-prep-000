@@ -5,7 +5,6 @@ My turn with Functions
 function shout(string) {
   logShout(string.toUpperCase())
   return string.toUpperCase()
-//  logShout(string.toUpperCase())
 }
 // fixed ReferenceError: shout is not defined 
 // -- fixed by creating function
@@ -15,7 +14,6 @@ function shout(string) {
 function whisper(string) {
   logWhisper(string.toLowerCase())
   return string.toLowerCase()
-//  logWhisper(string.toLowerCase())
 }
 // fixed ReferenceError: whisper is not defined 
 // -- fixed by creating function
@@ -24,7 +22,6 @@ function whisper(string) {
 
 function logShout(string) {
   console.log('I shouted',string )
-  console.log()
 }
 // fixed ReferenceError: logShout is not defined 
 // -- fixed by creating function
@@ -32,14 +29,13 @@ function logShout(string) {
 
 function logWhisper(string) {
   console.log('I whispered',string)
-  console.log()
 }
 // fixed ReferenceError: logWhisper is not defined 
 // -- fixed by creating function
 // NEW Error: spy was never called with [ 'hello' ]
 
 function sayHiToGrandma(string) {
-  console.log(string)
+  console.log("Grandma tried to hear",string)
 }
 // fixed ReferenceError: sayHiToGrandma is not defined 
 // -- fixed by creating function
