@@ -1,12 +1,12 @@
 /*
 function logShout(string) {
-  console.log(string)
+  console.log('logShout logged: '' string)
 }
 // fixed ReferenceError: logShout is not defined by creating function
 // NEW Error: spy was never called with [ 'HELLO' ]
  */
 function shout(string) {
-//  return string.toUpperCase()
+  return string.toUpperCase()
 logShout(string.toUpperCase())
 }
 // fixed ReferenceError: shout is not defined by creating function
@@ -19,7 +19,8 @@ function whisper(string) {
 // NEW Error: Expected undefined to equal 'hello'
 
 function logShout(string) {
-  console.log(string)
+  console.log(string, ' ', string)
+    spy('test')
 }
 // fixed ReferenceError: logShout is not defined by creating function
 // NEW Error: spy was never called with [ 'HELLO' ]
@@ -38,7 +39,7 @@ function sayHiToGrandma(string) {
 // NEW Error: Expected undefined to equal 'YES INDEED!'
 // NEW Error: Expected undefined to equal 'I love you, too.'
 
+console.log("My test run first log line.")
 sayHiToGrandma(shout('Hello'))
-// logShout('HELLO')
 
 // End of code lines
