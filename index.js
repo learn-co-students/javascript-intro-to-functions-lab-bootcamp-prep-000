@@ -3,8 +3,9 @@ My turn with Functions
  */
  
 function shout(string) {
-  return string.toUpperCase()
   logShout(string.toUpperCase())
+  return string.toUpperCase()
+//  logShout(string.toUpperCase())
 }
 // fixed ReferenceError: shout is not defined 
 // -- fixed by creating function
@@ -12,8 +13,9 @@ function shout(string) {
 // -- fixed with string.toUpperCase()
 
 function whisper(string) {
-  return string.toLowerCase()
   logWhisper(string.toLowerCase())
+  return string.toLowerCase()
+//  logWhisper(string.toLowerCase())
 }
 // fixed ReferenceError: whisper is not defined 
 // -- fixed by creating function
@@ -37,7 +39,7 @@ function logWhisper(string) {
 // NEW Error: spy was never called with [ 'hello' ]
 
 function sayHiToGrandma(string) {
-//  console.log(string)
+  console.log(string)
 }
 // fixed ReferenceError: sayHiToGrandma is not defined 
 // -- fixed by creating function
