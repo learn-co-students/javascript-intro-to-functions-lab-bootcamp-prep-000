@@ -1,10 +1,7 @@
 /*
-function logShout(string) {
-  console.log('logShout logged: '' string)
-}
-// fixed ReferenceError: logShout is not defined by creating function
-// NEW Error: spy was never called with [ 'HELLO' ]
+My turn with Functions
  */
+ 
 function shout(string) {
   return string.toUpperCase()
 logShout(string.toUpperCase())
@@ -39,7 +36,7 @@ function sayHiToGrandma(string) {
 // NEW Error: Expected undefined to equal 'YES INDEED!'
 // NEW Error: Expected undefined to equal 'I love you, too.'
 
-console.log("This is my first log line.")
+console.log("Starting to talk to Grandma.")
 sayHiToGrandma(shout('Hello'))
-
+console.log("Finished talking to Grandma.")
 // End of code lines
