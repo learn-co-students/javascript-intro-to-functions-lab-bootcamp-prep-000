@@ -37,13 +37,15 @@ function logWhisper(string) {
 function sayHiToGrandma(string) {
   var aPhrase = string
   console.log("Grandma tries to hear",aPhrase)
-  if (aPhrase.toLowerCase() === "i love you, grandma") { 
-  //          (aPhrase.toUpperCase() === "I LOVE YOU, GRANDMA") {
+  if (aPhrase === "i love you, grandma") { 
+  //          (aPhrase === "I LOVE YOU, GRANDMA") {
     console.log("Grandma says I love you, too.") 
-  } else if (aPhrase.toLowerCase() === lowercase) {
+/*
+} else if (aPhrase.toLowerCase() === lowercase) {
     console.log("Grandma says I can\'t hear you!")
   } else if (aPhrase.toUpperCase() === uppercase) {
     console.log("Grandma says YES INDEED!") 
+ */
   }
 }
 // ReferenceError: sayHiToGrandma is not defined 
