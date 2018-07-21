@@ -35,10 +35,14 @@ function logWhisper(string) {
 // NEW Error: spy was never called with [ 'hello' ]
 
 function sayHiToGrandma(string) {
-  console.log("Grandma tried to hear",string)
+  var aPhrase = string
+  console.log("Grandma tried to hear",aPhrase)
+  if (aPhrase === "HELLO") {
+    console.log("Grandma says YES INDEED!")
+  }
 }
 // ReferenceError: sayHiToGrandma is not defined 
-// -- fixed by creating function
+// -- fixed by cre
 // NEW Error: Expected undefined to equal 'I can\'t hear you!'
 // NEW Error: Expected undefined to equal 'YES INDEED!'
 // NEW Error: Expected undefined to equal 'I love you, too.'
