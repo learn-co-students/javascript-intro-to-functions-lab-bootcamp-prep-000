@@ -35,7 +35,8 @@ function logWhisper(string) {
 // NEW Error: spy was never called with [ 'hello' ]
 
 function sayHiToGrandma(string) {
-  var aPhrase = string
+  var inPhrase = string
+  var outPhrase = 
   console.log("Grandma tries to hear",aPhrase)
   if (aPhrase === "I love you, Grandma.") {
     console.log("Grandma says I love you, too.") 
