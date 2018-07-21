@@ -38,7 +38,7 @@ function sayHiToGrandma(string) {
 // NEW Error: Expected undefined to equal 'YES INDEED!'
 // NEW Error: Expected undefined to equal 'I love you, too.'
 
-shout('Hello')
-logShout('HELLO')
+sayHiToGrandma(shout('Hello'))
+// logShout('HELLO')
 
 // End of code lines
