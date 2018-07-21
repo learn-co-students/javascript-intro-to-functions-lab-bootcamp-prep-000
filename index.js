@@ -37,7 +37,8 @@ function logWhisper(string) {
 function sayHiToGrandma(string) {
 //  console.log(string)
 }
-// fixed ReferenceError: sayHiToGrandma is not defined by creating function
+// fixed ReferenceError: sayHiToGrandma is not defined 
+// -- fixed by creating function
 // NEW Error: Expected undefined to equal 'I can\'t hear you!'
 // NEW Error: Expected undefined to equal 'YES INDEED!'
 // NEW Error: Expected undefined to equal 'I love you, too.'
@@ -46,4 +47,7 @@ console.log("Starting to talk to Grandma.")
 sayHiToGrandma(shout('Hello'))
 sayHiToGrandma(whisper('Hello'))
 console.log("Finished talking to Grandma.")
-// End of code lines
+
+/*
+End of my turn with Functions
+ */
