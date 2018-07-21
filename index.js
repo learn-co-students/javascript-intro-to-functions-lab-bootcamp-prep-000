@@ -38,17 +38,26 @@ function sayHiToGrandma(string) {
   var aPhrase = string
   console.log("Grandma tries to hear",aPhrase)
   if (aPhrase === "I love you, Grandma.") {
-    onsole.log("Grandma says I love you, too.") 
-  }
-    else if (aPhrase === "I LOVE YOU, GRANDMA!") {
     console.log("Grandma says I love you, too.") 
+  } else if (aPhrase === "I LOVE YOU, GRANDMA!") {
+    console.log("Grandma says I love you, too.") 
+  }
 /*
 } else if (aPhrase.toLowerCase() === lowercase) {
     console.log("Grandma says I can\'t hear you!")
   } else if (aPhrase.toUpperCase() === uppercase) {
     console.log("Grandma says YES INDEED!") 
- */
+
+  if (lowercase.aPhrase === lowercase) {
+    console.log("Grandma says I can\'t hear you!")
+  } else if (uppercase.aPhrase === uppercase) {
+    console.log("Grandma says YES INDEED!") 
+  } else if (uppercase.aPhrase === "I love you, Grandma") { 
+  //          (lowercase.aPhrase === "I love you, Grandma") {
+    console.log("Grandma says I love you, too.")
   }
+  }
+ */
 }
 // ReferenceError: sayHiToGrandma is not defined 
 // -- fixed by creating function
