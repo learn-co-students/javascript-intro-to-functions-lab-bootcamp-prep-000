@@ -8,12 +8,15 @@ function shout(string) {
 }
 // fixed ReferenceError: shout is not defined by creating function
 // NEW Error: Expected undefined to equal 'HELLO'
+// -- fixed with string.toUpperCase()
 
 function whisper(string) {
-//  return string.toLowerCase()
+  return string.toLowerCase()
+  logWhisper(string.toLowerCase())
 }
 // fixed ReferenceError: whisper is not defined by creating function
 // NEW Error: Expected undefined to equal 'hello'
+// -- fixed with string.toLowerCase()
 
 function logShout(string) {
   console.log('shout argument is ${string}')
