@@ -43,9 +43,9 @@ function sayHiToGrandma(string) {
   console.log("Grandma tries to hear",inPhrase)
   
   if (inPhrase === "I love you, Grandma.") {
-    console.log("Grandma says I love you, too.") 
+    return "Grandma says I love you, too."
   } else if (inPhrase === "I LOVE YOU, GRANDMA!") {
-    console.log("Grandma says I love you, too.") 
+    return "Grandma says I love you, too."
   }
 
 }
