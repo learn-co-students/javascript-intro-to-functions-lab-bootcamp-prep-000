@@ -1,9 +1,10 @@
+/*
 function logShout(string) {
   console.log(string)
 }
 // fixed ReferenceError: logShout is not defined by creating function
 // NEW Error: spy was never called with [ 'HELLO' ]
-
+ */
 function shout(string) {
 //  return string.toUpperCase()
 logShout(string.toUpperCase())
