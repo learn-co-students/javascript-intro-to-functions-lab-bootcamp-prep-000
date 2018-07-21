@@ -21,14 +21,14 @@ function whisper(string) {
 // -- fixed with string.toLowerCase()
 
 function logShout(string) {
-  console.log('shout argument is ${string}')
+  console.log('I shouted ${string}')
 }
 // fixed ReferenceError: logShout is not defined 
 // -- fixed by creating function
 // NEW Error: spy was never called with [ 'HELLO' ]
 
 function logWhisper(string) {
-  console.log(string)
+  console.log('I whispered ${string}')
 }
 // fixed ReferenceError: logWhisper is not defined 
 // -- fixed by creating function
