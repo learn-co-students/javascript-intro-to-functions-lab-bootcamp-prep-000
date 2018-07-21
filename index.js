@@ -21,7 +21,8 @@ function whisper(string) {
 // -- fixed with string.toLowerCase()
 
 function logShout(string) {
-  console.log('I shouted ${string}')
+  var myShout = string
+  console.log('I shouted ${myShout}')
 }
 // fixed ReferenceError: logShout is not defined 
 // -- fixed by creating function
