@@ -20,7 +20,7 @@ function logWhisper(string) {
 //  console.log(string)
 }
 // fixed ReferenceError: logWhisper is not defined by creating function
-// NEW Error: spy was never called with [ 'HELLO' ]
+// NEW Error: spy was never called with [ 'hello' ]
 
 function sayHiToGrandma(string) {
 //  console.log(string)
