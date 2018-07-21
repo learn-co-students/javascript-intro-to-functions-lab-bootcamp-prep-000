@@ -44,8 +44,10 @@ function sayHiToGrandma(string) {
 // NEW Error: Expected undefined to equal 'I love you, too.'
 
 console.log("Starting to talk to Grandma.")
-sayHiToGrandma(shout('Hello'))
-sayHiToGrandma(whisper('Hello'))
+sayHiToGrandma(shout('Hello!'))
+sayHiToGrandma(shout('I love you, Grandma!'))
+sayHiToGrandma(whisper('Hello.'))
+sayHiToGrandma(whisper('I love you, Grandma.'))
 console.log("Finished talking to Grandma.")
 
 /*
