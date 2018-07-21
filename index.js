@@ -37,8 +37,10 @@ function logWhisper(string) {
 function sayHiToGrandma(string) {
   var aPhrase = string
   console.log("Grandma tries to hear",aPhrase)
-  if (aPhrase === "i love you, grandma") { 
-  //          (aPhrase === "I LOVE YOU, GRANDMA") {
+  if (aPhrase === "I love you, Grandma.") {
+    onsole.log("Grandma says I love you, too.") 
+  }
+    else if (aPhrase === "I LOVE YOU, GRANDMA!") {
     console.log("Grandma says I love you, too.") 
 /*
 } else if (aPhrase.toLowerCase() === lowercase) {
@@ -49,7 +51,7 @@ function sayHiToGrandma(string) {
   }
 }
 // ReferenceError: sayHiToGrandma is not defined 
-// -- fixed by cre
+// -- fixed by creating function
 // NEW Error: Expected undefined to equal 'I can\'t hear you!'
 // NEW Error: Expected undefined to equal 'YES INDEED!'
 // NEW Error: Expected undefined to equal 'I love you, too.'
