@@ -5,7 +5,7 @@ My turn with Functions
 function shout(string) {
   var inShout = string.toUpperCase()
   logShout(inShout)
-  return inShout
+  return "inShout"
 }
 // ReferenceError: shout is not defined 
 // -- fixed by creating function
