@@ -60,12 +60,12 @@ function sayHiToGrandma(string) {
 // when inPhrase is uppercase return outPhrase2
 // when inPhrase is 'I love you, Grandma.' return outPhrase3
 
-  if (inPhrase === "i love you, grandma.") {
+  if (inPhrase === "I love you, Grandma.") {
     console.log("Grandma replied",outPhrase3)
     return outPhrase3
   } else if (inPhrase === "I LOVE YOU, GRANDMA!") {
     console.log("Grandma replied",outPhrase3)
-    return outPhrase3
+    return outPhrase3, outPhrase3
   } else if (inPhrase === "HELLO") {
     console.log("Grandma replied",outPhrase2)
     return outPhrase2
