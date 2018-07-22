@@ -41,11 +41,17 @@ function sayHiToGrandma(string) {
   var outPhrase3 = 'I love you, too.'
   
   console.log("Grandma tries to hear",inPhrase)
-  
+
+// when inPharse is lowercase return outPhrase1
+// when inPhrase is uppercase return outPhrase2
+// when inPhrase is 'I love you, Grandma.' return outPhrase3
+
   if (inPhrase === "I love you, Grandma.") {
     console.log(outPhrase3)
+    return outPhrase3
   } else if (inPhrase === "I LOVE YOU, GRANDMA!") {
     console.log(outPhrase3)
+    return outPhrase3
   }
 
 }
