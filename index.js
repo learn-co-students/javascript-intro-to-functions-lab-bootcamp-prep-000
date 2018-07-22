@@ -55,7 +55,7 @@ function sayHiToGrandma(string) {
   console.log("Is",inPhrase.toLowerCase(),"ALL LOWERCASE?")
   //
   console.log("Grandma tried to hear",inPhrase)
-/*
+
 // when inPharse is lowercase return outPhrase1
 // when inPhrase is uppercase return outPhrase2
 // when inPhrase is 'I love you, Grandma.' return outPhrase3
@@ -63,7 +63,7 @@ function sayHiToGrandma(string) {
   if (inPhrase === "I love you, Grandma.") {
     console.log("Grandma replied",outPhrase3)
     return outPhrase3
-  } else if (inPhrase === "I LOVE YOU, GRANDMA!") {
+  } /*else if (inPhrase === "I LOVE YOU, GRANDMA!") {
     console.log("Grandma replied",outPhrase3)
     return outPhrase3
   } else if (inPhrase.toUpperCase() === "HELLO, GRANDMA!") {
