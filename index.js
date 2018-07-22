@@ -60,6 +60,8 @@ function sayHiToGrandma(string) {
 // NEW Error: Expected undefined to equal 'I can\'t hear you!'
 // NEW Error: Expected undefined to equal 'YES INDEED!'
 // NEW Error: Expected undefined to equal 'I love you, too.'
+// -- fixed with return outPhrase3
+
 /*
 End of Functions 
 */
