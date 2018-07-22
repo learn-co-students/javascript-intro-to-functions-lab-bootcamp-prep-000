@@ -69,7 +69,7 @@ function sayHiToGrandma(string) {
     return outPhrase2
   } else if (inPhrase.toLowerCase() === "i love you, grandma.") {
     console.log("Grandma replied",outPhrase1)
-    return outPhrase1}
+    return outPhrase1
   }
 // ReferenceError: sayHiToGrandma is not defined 
 // -- fixed by creating function
