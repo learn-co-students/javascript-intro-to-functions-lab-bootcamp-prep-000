@@ -63,9 +63,6 @@ function sayHiToGrandma(string) {
   if (inPhrase === "I love you, Grandma.") {
     console.log("Grandma replied",outPhrase3)
     return outPhrase3
-  } else if (inPhrase === "I LOVE YOU, GRANDMA!") {
-    console.log("Grandma replied",outPhrase3)
-    return outPhrase3, outPhrase3
   } else if (inPhrase === "HELLO") {
     console.log("Grandma replied",outPhrase2)
     return outPhrase2
