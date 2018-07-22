@@ -63,13 +63,13 @@ function sayHiToGrandma(string) {
   if (inPhrase === "I love you, Grandma.") {
     console.log("Grandma replied",outPhrase3)
     return outPhrase3
-  } /*else if (inPhrase === "I LOVE YOU, GRANDMA!") {
+  } else if (inPhrase === "I LOVE YOU, GRANDMA!") {
     console.log("Grandma replied",outPhrase3)
     return outPhrase3
-  } else if (inPhrase.toUpperCase() === "HELLO, GRANDMA!") {
+  } else if (inPhrase.toUpperCase() === "HELLO!") {
     console.log("Grandma replied",outPhrase2)
     return outPhrase2
-  } else if (inPhrase.toLowerCase() === "i love you, grandma.") {
+  } /*else if (inPhrase.toLowerCase() === "i love you, grandma.") {
     console.log("Grandma replied",outPhrase1)
     return outPhrase1
   }
@@ -96,9 +96,9 @@ Main routine
  
 console.log("Starting to talk to Grandma.")
 
-sayHiToGrandma(shout('Hello, Grandma!'))
+sayHiToGrandma(shout('Hello!'))
 sayHiToGrandma(shout('I love you, Grandma!'))
-sayHiToGrandma(whisper('Hello, Grandma.'))
+sayHiToGrandma(whisper('Hello.'))
 sayHiToGrandma(whisper('I love you, Grandma.'))
  
 console.log("Finished talking to Grandma.")
