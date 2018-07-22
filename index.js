@@ -13,7 +13,7 @@ function shout(string) {
 // -- fixed with string.toUpperCase()
 
 function whisper(string) {
-  var whisper = string.toLowerCase
+  var whisper = string.toLowerCase()
   logWhisper(whisper)
   return whisper
 }
