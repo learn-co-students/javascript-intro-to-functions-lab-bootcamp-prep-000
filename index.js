@@ -61,16 +61,19 @@ function sayHiToGrandma(string) {
   } else if (inPhrase === "I LOVE YOU, GRANDMA!") {
     console.log("Grandma replied",outPhrase3)
     return outPhrase3
-  } else if (string.toUpperCase() === uppercase) {
+  } else if (inPhrase.toUpperCase() === uppercase) {
     console.log("Grandma replied",outPhrase2)
     return outPhrase2
+  } else if (inPhrase.toLowerCase() === lowercase) {
+    console.log("Grandma replied",outPhrase1)
+    return outPhrase1}
   }
-
-}
 // ReferenceError: sayHiToGrandma is not defined 
 // -- fixed by creating function
 // NEW Error: Expected undefined to equal 'I can\'t hear you!'
+// -- fixed with return outPhrase1
 // NEW Error: Expected undefined to equal 'YES INDEED!'
+// -- fixed with return outPhrase2
 // NEW Error: Expected undefined to equal 'I love you, too.'
 // -- fixed with return outPhrase3
 
