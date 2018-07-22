@@ -81,8 +81,8 @@ function sayHiToGrandma(string) {
 // -- fixed with return outPhrase2
 // NEW Error: Expected undefined to equal 'I love you, too.'
 // -- fixed with return outPhrase3
-// NO NEW ERROR for === lowercase; WHY?
-// 2 NEW ReferenceError: uppercase is not defined
+// NO NEW ERROR for === lowercase; WHY? -- code removed
+// 2 NEW ReferenceError: uppercase is not defined -- code removed 
  
 }
 
