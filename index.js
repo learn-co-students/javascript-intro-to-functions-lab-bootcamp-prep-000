@@ -3,8 +3,9 @@ My turn with Functions
  */
  
 function shout(string) {
-  logShout(string.toUpperCase())
-  return string.toUpperCase()
+  var inShout = string.toUpperCase()
+  logShout(inShout)
+  return inShout
 }
 // ReferenceError: shout is not defined 
 // -- fixed by creating function
@@ -35,22 +36,29 @@ function logWhisper(string) {
 // NEW Error: spy was never called with [ 'hello' ]
 
 function sayHiToGrandma(string) {
+  
+  function logGrandmaReply (string) {
+    var reply = string
+    console.log(reply)
+  }
+
+ 
   var inPhrase = string
   var outPhrase1 = 'I can\'t hear you!'
   var outPhrase2 = 'YES INDEED!'
   var outPhrase3 = 'I love you, too.'
   
-  console.log("Grandma tries to hear",inPhrase)
+  logGrandmaReply("Grandma tried to hear",inPhrase)
 
 // when inPharse is lowercase return outPhrase1
 // when inPhrase is uppercase return outPhrase2
 // when inPhrase is 'I love you, Grandma.' return outPhrase3
 
   if (inPhrase === "I love you, Grandma.") {
-    console.log("Grandma replies",outPhrase3)
+    logGrandmaReply("Grandma replied",outPhrase3)
     return outPhrase3
   } else if (inPhrase === "I LOVE YOU, GRANDMA!") {
-    console.log("Grandma replies",outPhrase3)
+    logGrandmaReply("Grandma replied",outPhrase3)
     return outPhrase3
   }
 
@@ -71,9 +79,9 @@ Main routine
  */
  
 console.log("Starting to talk to Grandma.")
-sayHiToGrandma(shout('Hello!'))
+sayHiToGrandma(shout('Hello, Grandma!'))
 sayHiToGrandma(shout('I love you, Grandma!'))
-sayHiToGrandma(whisper('Hello.'))
+sayHiToGrandma(whisper('Hello, Grandma.'))
 sayHiToGrandma(whisper('I love you, Grandma.'))
 console.log("Finished talking to Grandma.")
 
