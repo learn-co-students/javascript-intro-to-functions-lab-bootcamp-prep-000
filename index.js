@@ -47,10 +47,10 @@ function sayHiToGrandma(string) {
 // when inPhrase is 'I love you, Grandma.' return outPhrase3
 
   if (inPhrase === "I love you, Grandma.") {
-    console.log(outPhrase3)
+    console.log("Grandma replies",outPhrase3)
     return outPhrase3
   } else if (inPhrase === "I LOVE YOU, GRANDMA!") {
-    console.log(outPhrase3)
+    console.log("Grandma replies",outPhrase3)
     return outPhrase3
   }
 
