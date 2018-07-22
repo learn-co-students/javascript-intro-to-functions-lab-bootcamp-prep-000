@@ -3,9 +3,9 @@ My turn with Functions
  */
  
 function shout(string) {
-  var inShout = string.toUpperCase()
-  logShout(inShout)
-  return "inShout"
+  var shout = string.toUpperCase()
+  logShout(shout)
+  return shout
 }
 // ReferenceError: shout is not defined 
 // -- fixed by creating function
