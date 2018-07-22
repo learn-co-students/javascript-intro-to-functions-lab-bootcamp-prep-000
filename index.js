@@ -69,7 +69,7 @@ function sayHiToGrandma(string) {
   } else if (inPhrase.toUpperCase() === "HELLO") {
     console.log("Grandma replied",outPhrase2)
     return outPhrase2
-  } else if (inPhrase === "i love you, grandma.") {
+  } else if (inPhrase === "hello") {
     console.log("Grandma replied",outPhrase1)
     return outPhrase1
   }
