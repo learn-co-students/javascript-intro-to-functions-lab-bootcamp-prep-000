@@ -58,6 +58,7 @@ function sayHiToGrandma(string) {
   if (inPhrase === "I love you, Grandma.") {
     console.log("Grandma replied",outPhrase3)
     return outPhrase3
+  /*
   } else if (inPhrase === "I LOVE YOU, GRANDMA!") {
     console.log("Grandma replied",outPhrase3)
     return outPhrase3
@@ -67,6 +68,7 @@ function sayHiToGrandma(string) {
   } else if (inPhrase.toLowerCase() === lowercase) {
     console.log("Grandma replied",outPhrase1)
     return outPhrase1}
+   */
   }
 // ReferenceError: sayHiToGrandma is not defined 
 // -- fixed by creating function
