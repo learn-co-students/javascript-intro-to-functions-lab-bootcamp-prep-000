@@ -84,7 +84,8 @@ function sayHiToGrandma(string) {
 // NO NEW ERROR for === lowercase; WHY?
 // 2 NEW ReferenceError: uppercase is not defined
  */
- 
+}
+
 /*
 End of Functions 
 */
