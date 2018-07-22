@@ -38,7 +38,7 @@ function logWhisper(string) {
 // -- fixed by creating function
 // NEW Error: spy was never called with [ 'hello' ]
 
-/*
+
 function sayHiToGrandma(string) {
   
   function logGrandmaReply (string) {
@@ -94,12 +94,12 @@ Main routine
  */
  
 console.log("Starting to talk to Grandma.")
-/*
+
 sayHiToGrandma(shout('Hello, Grandma!'))
 sayHiToGrandma(shout('I love you, Grandma!'))
 sayHiToGrandma(whisper('Hello, Grandma.'))
 sayHiToGrandma(whisper('I love you, Grandma.'))
- */
+ 
 console.log("Finished talking to Grandma.")
 
 /*
