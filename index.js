@@ -64,10 +64,10 @@ function sayHiToGrandma(string) {
   } else if (inPhrase === "I LOVE YOU, GRANDMA!") {
     console.log("Grandma replied",outPhrase3)
     return outPhrase3
-  } else if (inPhrase.toUpperCase() === uppercase) {
+  } else if (inPhrase.toUpperCase() === "HELLO, GRANDMA!") {
     console.log("Grandma replied",outPhrase2)
     return outPhrase2
-  } else if (inPhrase.toLowerCase() === lowercase) {
+  } else if (inPhrase.toLowerCase() === "LOWERCASE") {
     console.log("Grandma replied",outPhrase1)
     return outPhrase1}
   }
