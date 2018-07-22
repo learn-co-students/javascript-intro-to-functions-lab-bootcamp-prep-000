@@ -69,7 +69,7 @@ function sayHiToGrandma(string) {
   } else if (inPhrase.toUpperCase() === "HELLO") {
     console.log("Grandma replied",outPhrase2)
     return outPhrase2
-  } /*else if (inPhrase.toLowerCase() === "i love you, grandma.") {
+  } else if (inPhrase === "i love you, grandma.") {
     console.log("Grandma replied",outPhrase1)
     return outPhrase1
   }
@@ -83,7 +83,7 @@ function sayHiToGrandma(string) {
 // -- fixed with return outPhrase3
 // NO NEW ERROR for === lowercase; WHY?
 // 2 NEW ReferenceError: uppercase is not defined
- */
+ 
 }
 
 /*
