@@ -13,8 +13,9 @@ function shout(string) {
 // -- fixed with string.toUpperCase()
 
 function whisper(string) {
-  logWhisper(string.toLowerCase())
-  return string.toLowerCase()
+  var whisper = string.toLowerCase
+  logWhisper(whisper)
+  return whisper
 }
 // ReferenceError: whisper is not defined 
 // -- fixed by creating function
@@ -37,6 +38,7 @@ function logWhisper(string) {
 // -- fixed by creating function
 // NEW Error: spy was never called with [ 'hello' ]
 
+/*
 function sayHiToGrandma(string) {
   
   function logGrandmaReply (string) {
@@ -81,7 +83,8 @@ function sayHiToGrandma(string) {
 // -- fixed with return outPhrase3
 // NO NEW ERROR for === lowercase; WHY?
 // 2 NEW ReferenceError: uppercase is not defined
-
+ */
+ 
 /*
 End of Functions 
 */
