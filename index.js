@@ -48,17 +48,17 @@ function sayHiToGrandma(string) {
   var outPhrase2 = 'YES INDEED!'
   var outPhrase3 = 'I love you, too.'
   
-  logGrandmaReply("Grandma tried to hear",inPhrase)
+  console.log("Grandma tried to hear",inPhrase)
 
 // when inPharse is lowercase return outPhrase1
 // when inPhrase is uppercase return outPhrase2
 // when inPhrase is 'I love you, Grandma.' return outPhrase3
 
   if (inPhrase === "I love you, Grandma.") {
-    logGrandmaReply("Grandma replied",outPhrase3)
+    console.log("Grandma replied",outPhrase3)
     return outPhrase3
   } else if (inPhrase === "I LOVE YOU, GRANDMA!") {
-    logGrandmaReply("Grandma replied",outPhrase3)
+    console.log("Grandma replied",outPhrase3)
     return outPhrase3
   }
 
