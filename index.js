@@ -78,9 +78,11 @@ function sayHiToGrandma(string) {
 // -- fixed with return outPhrase2
 // NEW Error: Expected undefined to equal 'I love you, too.'
 // -- fixed with return outPhrase3
-// NO NEW ERROR for === lowercase; WHY? -- code removed
-// 2 NEW ReferenceError: uppercase is not defined -- code removed 
- 
+// NEW ERROR: ReferenceError: uppercase is not defined 
+// -- if {inPhrase.toUpperCase() === uppercase) {...} -- replaced code
+// NEW ERROR: ReferenceError: uppercase is not defined
+// -- Note: Same error for lowercase as for uppercase
+// -- if {inPhrase.toLowerCase() === lowercase) {...} -- replaced code
 }
 
 /*
