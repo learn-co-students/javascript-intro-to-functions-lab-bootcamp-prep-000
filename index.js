@@ -51,8 +51,8 @@ function sayHiToGrandma(string) {
   var outPhrase2 = 'YES INDEED!'
   var outPhrase3 = 'I love you, too.'
   //
-  console.log("Is",inPhrase.toUpperCase(),"ALL UPPERCASE?")
-  console.log("Is",inPhrase.toLowerCase(),"ALL LOWERCASE?")
+  //console.log("Is",inPhrase.toUpperCase(),"ALL UPPERCASE?")
+  //console.log("Is",inPhrase.toLowerCase(),"ALL LOWERCASE?")
   //
   console.log("Grandma tried to hear",inPhrase)
 
