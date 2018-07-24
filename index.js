@@ -100,7 +100,7 @@ sayHiToGrandma(whisper('hello'))
 sayHiToGrandma(whisper('I love you, Grandma.'))
  */
 logShout('HELLO')
-logWwhisper('hello')
+logWhisper('hello')
 console.log("Finished talking to Grandma.")
 
 /*
