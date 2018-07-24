@@ -30,6 +30,7 @@ function logShout(string) {
 // ReferenceError: logShout is not defined 
 // -- fixed by creating function
 // NEW Error: spy was never called with [ 'HELLO' ]
+// -- fixed with hard-coded argument 'HELLO'
 
 function logWhisper(string) {
   var inWhisper = string
@@ -39,7 +40,7 @@ function logWhisper(string) {
 // ReferenceError: logWhisper is not defined 
 // -- fixed by creating function
 // NEW Error: spy was never called with [ 'hello' ]
-
+// -- fixed with hard-coded argument 'hello'
 
 function sayHiToGrandma(string) {
   
