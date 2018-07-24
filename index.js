@@ -97,7 +97,7 @@ console.log("Starting to talk to Grandma.")
 
 // sayHiToGrandma(shout('Hello'))
 sayHiToGrandma(shout('HELLO'))
-sayHiToGrandma(shout('I love you, Grandma!'))
+// sayHiToGrandma(shout('I love you, Grandma!'))
 // sayHiToGrandma(whisper('Hello'))
 sayHiToGrandma(whisper('hello'))
 sayHiToGrandma(whisper('I love you, Grandma.'))
