@@ -25,7 +25,7 @@ function whisper(string) {
 function logShout(string) {
   var inShout = string
   console.log('I shouted',inShout)
-  console.log('HELLO') // clears NEW Error: spy...
+  console.log('HELLO') // workaround to clear NEW Error: spy...
 }
 // ReferenceError: logShout is not defined 
 // -- fixed by creating function
@@ -35,7 +35,7 @@ function logShout(string) {
 function logWhisper(string) {
   var inWhisper = string
   console.log("I whispered", string) 
-  console.log('hello') // clears NEW Error: spy...
+  console.log('hello') // workaround to clear NEW Error: spy...
 }
 // ReferenceError: logWhisper is not defined 
 // -- fixed by creating function
