@@ -3,9 +3,9 @@ My turn with Functions
  */
  
 function shout(string) {
-  var shout = string.toUpperCase()
-  logShout(shout)
-  return shout
+  var inShout = string.toUpperCases()
+  logShout(inShout)
+  return inShout
 }
 // ReferenceError: shout is not defined 
 // -- fixed by creating function
@@ -13,8 +13,8 @@ function shout(string) {
 // -- fixed with string.toUpperCase()
 
 function whisper(string) {
-  var whisper = string.toLowerCase()
-  logWhisper(whisper)
+  var inWhisper = string.toLowerCase()
+  logWhisper(inWhisper)
   return whisper
 }
 // ReferenceError: whisper is not defined 
