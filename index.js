@@ -100,8 +100,8 @@ sayHiToGrandma(whisper('hello'))
 sayHiToGrandma(whisper('I love you, Grandma.'))
  */
 
-logShout('HELLO')
-logWhisper('hello')
+logShout("HELLO")
+logWhisper("hello")
 
 // shout('HELLO')
 // whisper('hello')
