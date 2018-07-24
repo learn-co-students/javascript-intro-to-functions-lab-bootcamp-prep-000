@@ -97,17 +97,14 @@ Main routine
  */
  
 console.log("Starting to talk to Grandma.")
-/*
+
 sayHiToGrandma(shout('HELLO'))
+sayHiToGrandma(shout('hello'))
+sayHiToGrandma(shout('Hello'))
+sayHiToGrandma(whisper('HELLO'))
 sayHiToGrandma(whisper('hello'))
+sayHiToGrandma(whisper('Hello'))
 sayHiToGrandma(whisper('I love you, Grandma.'))
- */
-
-logShout('HELLO')
-logWhisper('hello')
-
-// shout('HELLO')
-// whisper('hello')
 
 console.log("Finished talking to Grandma.")
 
