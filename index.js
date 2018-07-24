@@ -33,8 +33,8 @@ function logShout(string) {
 
 function logWhisper(string) {
   var inWhisper = string
-  console.log('I whispered',inWhisper)
-  console.log('hello')
+  console.log(inWhisper)
+//  console.log('hello')
 }
 // ReferenceError: logWhisper is not defined 
 // -- fixed by creating function
