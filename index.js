@@ -99,8 +99,13 @@ sayHiToGrandma(shout('HELLO'))
 sayHiToGrandma(whisper('hello'))
 sayHiToGrandma(whisper('I love you, Grandma.'))
  */
+
 logShout('HELLO')
 logWhisper('hello')
+
+// shout('HELLO')
+// whisper('hello')
+
 console.log("Finished talking to Grandma.")
 
 /*
