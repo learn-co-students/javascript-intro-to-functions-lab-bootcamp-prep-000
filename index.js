@@ -95,8 +95,8 @@ Main routine
  
 console.log("Starting to talk to Grandma.")
 
-sayHiToGrandma(shout('Hello'))
-sayHiToGrandma(whisper('Hello'))
+sayHiToGrandma(shout('HELLO'))
+sayHiToGrandma(whisper('hello'))
 sayHiToGrandma(whisper('I love you, Grandma.'))
  
 console.log("Finished talking to Grandma.")
