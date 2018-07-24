@@ -67,8 +67,11 @@ function sayHiToGrandma(string) {
 // when inPhrase is uppercase return outPhrase2
 // when inPhrase is 'I love you, Grandma.' return outPhrase3
 
-  if (inPhrase.toLowerCase() === lowercase) {
+  if (inPhrase.toLowerCase() === lowercase) { // ReferenceError: lowercase is not defined
     console.log("Grandma replied",outPhrase1)
+  }
+  if (inPhrase.toLowerCase() === uppercase) { // ReferenceError: uppercase is not defined
+    console.log("Grandma replied",outPhrase2)
   }
   if (inPhrase === "I love you, Grandma.") {
     console.log("Grandma replied",outPhrase3)
