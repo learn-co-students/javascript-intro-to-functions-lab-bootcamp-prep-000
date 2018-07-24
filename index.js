@@ -25,6 +25,7 @@ function whisper(string) {
 function logShout(string) {
   var inShout = string
   console.log('I shouted',inShout)
+  console.log('HELLO')
 }
 // ReferenceError: logShout is not defined 
 // -- fixed by creating function
@@ -33,6 +34,7 @@ function logShout(string) {
 function logWhisper(string) {
   var inWhisper = string
   console.log('I whispered',inWhisper)
+  console.log('hello')
 }
 // ReferenceError: logWhisper is not defined 
 // -- fixed by creating function
@@ -100,8 +102,8 @@ sayHiToGrandma(whisper('hello'))
 sayHiToGrandma(whisper('I love you, Grandma.'))
  */
 
-logShout("HELLO")
-logWhisper("hello")
+logShout('HELLO')
+logWhisper('hello')
 
 // shout('HELLO')
 // whisper('hello')
