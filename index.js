@@ -32,7 +32,7 @@ function logShout(string) {
 // NEW Error: spy was never called with [ 'HELLO' ]
 
 function logWhisper(string) {
-  var inWhisper = string
+  var inWhisper = string.toLowerCase
   console.log(string)
 //  console.log('hello')
 }
