@@ -15,7 +15,7 @@ function shout(string) {
 function whisper(string) {
   var inWhisper = string.toLowerCase()
   logWhisper(inWhisper)
-  return whisper
+  return inWhisper
 }
 // ReferenceError: whisper is not defined 
 // -- fixed by creating function
@@ -23,16 +23,16 @@ function whisper(string) {
 // -- fixed with string.toLowerCase()
 
 function logShout(string) {
-  var shout = string
-  console.log('I shouted',shout)
+  var inShout = string
+  console.log('I shouted',inShout)
 }
 // ReferenceError: logShout is not defined 
 // -- fixed by creating function
 // NEW Error: spy was never called with [ 'HELLO' ]
 
 function logWhisper(string) {
-  var whisper = string
-  console.log('I whispered',whisper)
+  var inWhisper = string
+  console.log('I whispered',inWhisper)
 }
 // ReferenceError: logWhisper is not defined 
 // -- fixed by creating function
