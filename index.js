@@ -3,7 +3,8 @@ My turn with Functions
  */
  
 function shout(string) {
-  var inShout = string.toUpperCase()
+//  var inShout = string.toUpperCase()
+  var inShout = string
   logShout(inShout)
   return inShout
 }
@@ -13,7 +14,8 @@ function shout(string) {
 // -- fixed with string.toUpperCase()
 
 function whisper(string) {
-  var inWhisper = string.toLowerCase()
+//  var inWhisper = string.toLowerCase()
+  var inWhisper = string
   logWhisper(inWhisper)
   return inWhisper
 }
