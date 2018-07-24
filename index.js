@@ -34,7 +34,7 @@ function logShout(string) {
 function logWhisper(string) {
   var inWhisper = string.toLowerCase
   console.log(string)
-  console.log("hard-coded",'hello')
+  console.log('hello')
 }
 // ReferenceError: logWhisper is not defined 
 // -- fixed by creating function
