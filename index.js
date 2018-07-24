@@ -99,8 +99,8 @@ sayHiToGrandma(shout('HELLO'))
 sayHiToGrandma(whisper('hello'))
 sayHiToGrandma(whisper('I love you, Grandma.'))
  */
-shout('HELLO')
-whisper('hello')
+logShout('HELLO')
+logWwhisper('hello')
 console.log("Finished talking to Grandma.")
 
 /*
