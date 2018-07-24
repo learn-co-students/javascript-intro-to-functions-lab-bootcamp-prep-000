@@ -3,7 +3,7 @@ My turn with Functions
  */
  
 function shout(string) {
-  var inShout = string.toUpperCases()
+  var inShout = string.toUpperCase()
   logShout(inShout)
   return inShout
 }
