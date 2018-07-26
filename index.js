@@ -110,6 +110,7 @@ sayHiToGrandma(shout('Hello'))
 sayHiToGrandma(whisper('HELLO'))
 sayHiToGrandma(whisper('hello'))
 sayHiToGrandma(whisper('Hello'))
+sayHiToGrandma(shout('I love you, Grandma.'))
 sayHiToGrandma(whisper('I love you, Grandma.'))
 
 console.log("Finished talking to Grandma.")
