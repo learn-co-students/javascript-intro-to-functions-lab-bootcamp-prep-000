@@ -28,6 +28,7 @@ function logShout(string) {
   var inShout = string
   console.log('I shouted',inShout)
   console.log(inShout)
+  return inShout
 //  console.log('I shouted','HELLO') // workaround FAILED to clear NEW Error: spy...
 //  console.log('HELLO') // workaround to clear NEW Error: spy...
 }
@@ -39,6 +40,7 @@ function logShout(string) {
 function logWhisper(string) {
   var inWhisper = string
   console.log("I whispered", inWhisper) 
+  return inWhisper
 //  console.log("I whispered", 'hello') // workaround FAILED to clear NEW Error: spy...
 //  console.log('hello') // workaround to clear NEW Error: spy...
 }
@@ -75,16 +77,10 @@ function sayHiToGrandma(string) {
     logGrandmaReply(outPhrase2)
     return outPhrase2
   } else if (inPhrase === "I love you, Grandma.") {
-    console.log("Grandma replied",outPhrase3)
+    logGrandmaReply(outPhrase3)
     return outPhrase3
   } 
- /* else if (inPhrase === "HELLO") {
-    console.log("Grandma replied",outPhrase2)
-    return outPhrase2
-  } else if (inPhrase === "hello") {
-    console.log("Grandma replied",outPhrase1)
-    return outPhrase1
-  }
+ 
 // ReferenceError: sayHiToGrandma is not defined 
 // -- fixed by creating function
 // NEW Error: Expected undefined to equal 'I can\'t hear you!'
@@ -93,12 +89,6 @@ function sayHiToGrandma(string) {
 // -- fixed with return outPhrase2
 // NEW Error: Expected undefined to equal 'I love you, too.'
 // -- fixed with return outPhrase3
-// NEW ERROR: ReferenceError: uppercase is not defined 
-// -- if {inPhrase.toUpperCase() === uppercase) {...} -- replaced code
-// NEW ERROR: ReferenceError: uppercase is not defined
-// -- Note: Same error with ...=== lowercase... as with ...=== uppercase...
-// -- if {inPhrase.toLowerCase() === lowercase) {...} -- replaced code
- */
   
 }
 
