@@ -54,7 +54,7 @@ function sayHiToGrandma(string) {
   
   function logGrandmaReply (string) {
     var reply = string
-    console.log("Grandma replied",reply)
+    console.log("Grandma replied",reply/n)
     console.log(' ')
   }
  
