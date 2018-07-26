@@ -75,6 +75,7 @@ function sayHiToGrandma(string) {
  
   if (inPhrase.toUpperCase() === inPhrase) { 
     logGrandmaReply(outPhrase2)
+    return outPhrase2
   }
  
  /*
