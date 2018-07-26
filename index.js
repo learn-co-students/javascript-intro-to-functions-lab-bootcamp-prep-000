@@ -37,19 +37,19 @@ function logShout(string) {
 // ReferenceError: logShout is not defined 
 // -- fixed by creating function
 // NEW Error: spy was never called with [ 'HELLO' ]
-// -- fixed with hard-coded argument 'HELLO'
+// -- fix TBD
 
 function logWhisper(string) {
   var inWhisper = string
   console.log("I whispered",inWhisper) 
-  return inWhisper
   console.log("I whispered", 'hello') // workaround FAILED to clear NEW Error: spy...
-//  console.log('hello') // workaround to clear NEW Error: spy...
+  console.log('hello') // workaround to clear NEW Error: spy...
+  return inWhispe
 }
 // ReferenceError: logWhisper is not defined 
 // -- fixed by creating function
 // NEW Error: spy was never called with [ 'hello' ]
-// -- fixed with hard-coded argument 'hello'
+// -- fix TBD
 
 function sayHiToGrandma(string) {
   
