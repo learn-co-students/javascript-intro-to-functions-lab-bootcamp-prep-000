@@ -70,6 +70,7 @@ function sayHiToGrandma(string) {
 
   if (inPhrase.toLowerCase() === inPhrase) { 
     logGrandmaReply(outPhrase1)
+    return outPhrase1
   }
  
   if (inPhrase.toUpperCase() === inPhrase) { 
