@@ -116,6 +116,7 @@ sayHiToGrandma(whisper('Hello'))
 sayHiToGrandma(shout('I love you, Grandma.'))
 sayHiToGrandma(whisper('I love you, Grandma.'))
 sayHiToGrandma('I love you, Grandma.')
+sayHiToGrandma('Can you hear me, Grandma?')
 
 console.log("Finished talking to Grandma.")
 
