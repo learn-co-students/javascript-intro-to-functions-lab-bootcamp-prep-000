@@ -15,9 +15,10 @@ function shout(string) {
 // -- fixed with string.toUpperCase()
 
 function whisper(string) {
-  var inWhisper = string.toLowerCase()
-  logWhisper(inWhisper)
-  return inWhisper
+  var inWhisper = string
+  var outWhisper = string.toLowerCase()
+  logWhisper(outWhisper)
+  return outWhisper
 }
 // ReferenceError: whisper is not defined 
 // -- fixed by creating function
