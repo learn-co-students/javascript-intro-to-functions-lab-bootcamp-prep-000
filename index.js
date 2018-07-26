@@ -66,8 +66,8 @@ function sayHiToGrandma(string) {
 // when inPharse is lowercase return outPhrase1
 // when inPhrase is uppercase return outPhrase2
 // when inPhrase is 'I love you, Grandma.' return outPhrase3
-/* will pass without neither lowercase or uppercase test 
-  if (inPhrase.toLowerCase() === inPhrase) { // ReferenceError: lowercase is not defined
+
+  if (inPhrase.toLowerCase() === inPhrase) { 
     console.log("Grandma replied",outPhrase1)
   }
  
@@ -82,7 +82,7 @@ function sayHiToGrandma(string) {
   if (inPhrase.toLowerCase() === inPhrase) { 
     console.log("Grandma replied",outPhrase2)
   }
- */
+ 
  /*
   if (inPhrase === "I love you, Grandma.") {
     console.log("Grandma replied",outPhrase3)
