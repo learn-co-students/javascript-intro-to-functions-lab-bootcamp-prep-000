@@ -3,10 +3,11 @@ My turn with Functions
  */
  
 function shout(string) {
-  var inShout = string.toUpperCase()
-//  var inShout = string
-  logShout(inShout)
-  return inShout
+  var inShout = string
+  var outShout = inShout.toUpperCase()
+  console.log('I said',inShout,'which shout changed to',outShout) 
+  logShout(outShout)
+  return outShout
 }
 // ReferenceError: shout is not defined 
 // -- fixed by creating function
@@ -15,7 +16,6 @@ function shout(string) {
 
 function whisper(string) {
   var inWhisper = string.toLowerCase()
-//  var inWhisper = string
   logWhisper(inWhisper)
   return inWhisper
 }
@@ -102,11 +102,10 @@ Main routine
 console.log("Starting to talk to Grandma.")
 
 sayHiToGrandma(shout('HELLO'))
-// sayHiToGrandma(shout('hello'))
-// sayHiToGrandma(shout('Hello'))
-// sayHiToGrandma(whisper('HELLO'))
+sayHiToGrandma(shout('hello'))
+sayHiToGrandma(shout('Hello'))
+sayHiToGrandma(whisper('HELLO'))
 sayHiToGrandma(whisper('hello'))
-// 
 sayHiToGrandma(whisper('Hello'))
 sayHiToGrandma(whisper('I love you, Grandma.'))
 
