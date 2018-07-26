@@ -3,9 +3,9 @@ My turn with Functions
  */
  
 function shout(string) {
-  var inShout = string
-  var outShout = inShout.toUpperCase()
-  console.log('I said',inShout,'which shout changed to',outShout) 
+  var inSomething = string
+  var outShout = inSomething.toUpperCase()
+  console.log('I said',inSomething,'which shout changed to',outShout) 
   logShout(outShout)
   return outShout
 }
@@ -15,9 +15,9 @@ function shout(string) {
 // -- fixed with string.toUpperCase()
 
 function whisper(string) {
-  var inWhisper = string
-  var outWhisper = string.toLowerCase()
-  console.log('I said',inWhisper,'which whisper changed to',outWhisper) 
+  var inSomething = string
+  var outWhisper = inSomething.toLowerCase()
+  console.log('I said',inSomething,'which whisper changed to',outWhisper) 
   logWhisper(outWhisper)
   return outWhisper
 }
