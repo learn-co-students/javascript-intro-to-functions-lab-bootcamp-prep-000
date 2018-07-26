@@ -114,11 +114,11 @@ Main routine
  
 console.log("Starting to talk to Grandma.")
 
-sayHiToGrandma(shout('HELLO'))
-sayHiToGrandma(shout('hello'))
+// sayHiToGrandma(shout('HELLO'))
+// sayHiToGrandma(shout('hello'))
 sayHiToGrandma(shout('Hello'))
-sayHiToGrandma(whisper('HELLO'))
-sayHiToGrandma(whisper('hello'))
+// sayHiToGrandma(whisper('HELLO'))
+// sayHiToGrandma(whisper('hello'))
 sayHiToGrandma(whisper('Hello'))
 sayHiToGrandma(whisper('I love you, Grandma.'))
 
