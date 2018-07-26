@@ -71,15 +71,7 @@ function sayHiToGrandma(string) {
     console.log("Grandma replied",outPhrase1)
   }
  
- // Note: when test for lowercase is active above and
- //       when active test for uppercase is below, 
- //       get the same error as above.
- //       ReferenceError: lowercase is not defined 
- //       and no ReferenceError: uppercase is not defined
- // Note: when lowercase test is not active above and
- //       when active test for uppercase is below, get
- //       ReferenceError: uppercase is not defined
-  if (inPhrase.toLowerCase() === inPhrase) { 
+  if (inPhrase.toUpperCase() === inPhrase) { 
     console.log("Grandma replied",outPhrase2)
   }
  
