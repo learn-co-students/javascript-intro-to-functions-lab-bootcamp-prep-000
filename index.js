@@ -27,6 +27,7 @@ function whisper(string) {
 function logShout(string) {
   var inShout = string
   console.log('I shouted',inShout)
+  console.log(inShout)
 //  console.log('I shouted','HELLO') // workaround FAILED to clear NEW Error: spy...
 //  console.log('HELLO') // workaround to clear NEW Error: spy...
 }
