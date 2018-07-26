@@ -107,8 +107,10 @@ function sayHiToGrandma(string) {
 // NEW ERROR: ReferenceError: uppercase is not defined
 // -- Note: Same error with ...=== lowercase... as with ...=== uppercase...
 // -- if {inPhrase.toLowerCase() === lowercase) {...} -- replaced code
-}
  */
+  
+}
+
 /*
 End of Functions 
 */
