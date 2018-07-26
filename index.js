@@ -17,6 +17,7 @@ function shout(string) {
 function whisper(string) {
   var inWhisper = string
   var outWhisper = string.toLowerCase()
+  console.log('I said',inWhisper,'which whisper changed to',outWhisper) 
   logWhisper(outWhisper)
   return outWhisper
 }
