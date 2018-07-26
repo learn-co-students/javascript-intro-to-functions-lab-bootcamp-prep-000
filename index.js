@@ -31,7 +31,8 @@ function logShout(string) {
   console.log('I shouted',inShout)
   return inShout
 // console.log('I shouted','HELLO') // workaround FAILED to clear NEW Error: spy...
-console.log('HELLO') // workaround to clear NEW Error: spy...
+  console.log('HELLO') // workaround to clear NEW Error: spy...
+  return inShout
 }
 // ReferenceError: logShout is not defined 
 // -- fixed by creating function
