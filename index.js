@@ -44,7 +44,7 @@ function logWhisper(string) {
   console.log("I whispered",inWhisper) 
   console.log("I whispered", 'hello') // workaround FAILED to clear NEW Error: spy...
   console.log('hello') // workaround to clear NEW Error: spy...
-  return inWhispe
+  return inWhisper
 }
 // ReferenceError: logWhisper is not defined 
 // -- fixed by creating function
