@@ -78,11 +78,12 @@ function sayHiToGrandma(string) {
     return outPhrase2
   }
  
- /*
+ 
   if (inPhrase === "I love you, Grandma.") {
     console.log("Grandma replied",outPhrase3)
     return outPhrase3
-  } else if (inPhrase === "HELLO") {
+  } 
+ /* else if (inPhrase === "HELLO") {
     console.log("Grandma replied",outPhrase2)
     return outPhrase2
   } else if (inPhrase === "hello") {
