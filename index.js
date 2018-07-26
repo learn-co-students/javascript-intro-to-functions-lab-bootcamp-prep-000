@@ -51,7 +51,7 @@ function sayHiToGrandma(string) {
   
   function logGrandmaReply (string) {
     var reply = string
-    console.log(reply)
+    console.log("Grandma replied",reply)
   }
  
   var inPhrase = string
@@ -69,11 +69,11 @@ function sayHiToGrandma(string) {
 // when inPhrase is 'I love you, Grandma.' return outPhrase3
 
   if (inPhrase.toLowerCase() === inPhrase) { 
-    logGrandmaReply("Grandma replied",outPhrase1)
+    logGrandmaReply(outPhrase1)
   }
  
   if (inPhrase.toUpperCase() === inPhrase) { 
-    logGrandmaReply("Grandma replied",outPhrase2)
+    logGrandmaReply(outPhrase2)
   }
  
  /*
