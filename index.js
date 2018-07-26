@@ -51,13 +51,13 @@ function logWhisper(string) {
 // -- fix TBD
 
 function sayHiToGrandma(string) {
-  
+
   function logGrandmaReply (string) {
     var reply = string
     console.log("Grandma replied",reply)
     console.log(' ')
   }
- 
+
   var inPhrase = string
   var outPhrase1 = 'I can\'t hear you!'
   var outPhrase2 = 'YES INDEED!'
