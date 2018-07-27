@@ -23,8 +23,6 @@ function logShout(string) {
   console.log('I shouted', inShout)
   console.log('I should have shouted')
   console.log(string.toUpperCase())
-//  console.log('I shouted','HELLO') // workaround FAILED to clear NEW Error: spy...
-//  console.log('HELLO') // workaround to clear NEW Error: spy...
 }
 
 function logWhisper(string) {
@@ -32,19 +30,8 @@ function logWhisper(string) {
   console.log("I whispered", inWhisper) 
   console.log('I should have whispered')
   console.log(string.toLowerCase())
-//  console.log("I whispered", 'hello') // workaround FAILED to clear NEW Error: spy...
-//  console.log('hello') // workaround to clear NEW Error: spy...
 }
 
-/*
-function logShout(string) {
-  console.log("I shouted", string.toUpperCase())
-}
-
-function logWhisper(string) {
-  console.log(string.toLowerCase())
-}
- */
 function sayHiToGrandma(string) {
 
   function logGrandmaReply (string) {
@@ -90,7 +77,7 @@ Main routine
  
 console.log("Starting to talk to Grandma.")
 
-// Test uppercase, lowercase, and mixed case 
+// Use uppercase, lowercase, and mixed case 
 sayHiToGrandma(shout('HELLO'))
 sayHiToGrandma(shout('hello'))
 sayHiToGrandma(shout('Hello'))
