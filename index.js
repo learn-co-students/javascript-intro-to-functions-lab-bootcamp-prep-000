@@ -9,10 +9,6 @@ function shout(string) {
   logShout(outShout)
   return outShout
 }
-// ReferenceError: shout is not defined 
-// -- fixed by creating function
-// NEW Error: Expected undefined to equal 'HELLO'
-// -- fixed with string.toUpperCase()
 
 function whisper(string) {
   var inSomething = string
@@ -21,34 +17,22 @@ function whisper(string) {
   logWhisper(outWhisper)
   return outWhisper
 }
-// ReferenceError: whisper is not defined 
-// -- fixed by creating function
-// NEW Error: Expected undefined to equal 'hello'
-// -- fixed with string.toLowerCase()
 
 function logShout(string) {
   var inShout = string
   console.log('I shouted',inShout)
 //  console.log('I shouted','HELLO') // workaround FAILED to clear NEW Error: spy...
-  console.log('HELLO') // workaround to clear NEW Error: spy...
+//  console.log('HELLO') // workaround to clear NEW Error: spy...
   return inShout
 }
-// ReferenceError: logShout is not defined 
-// -- fixed by creating function
-// NEW Error: spy was never called with [ 'HELLO' ]
-// -- fix TBD
 
 function logWhisper(string) {
   var inWhisper = string
   console.log("I whispered",inWhisper) 
 //  console.log("I whispered", 'hello') // workaround FAILED to clear NEW Error: spy...
-  console.log('hello') // workaround to clear NEW Error: spy...
+//  console.log('hello') // workaround to clear NEW Error: spy...
   return inWhisper
 }
-// ReferenceError: logWhisper is not defined 
-// -- fixed by creating function
-// NEW Error: spy was never called with [ 'hello' ]
-// -- fix TBD
 
 function sayHiToGrandma(string) {
 
@@ -83,16 +67,6 @@ function sayHiToGrandma(string) {
   } else {
     logGrandmaReply(noReply)
   }
- 
-// ReferenceError: sayHiToGrandma is not defined 
-// -- fixed by creating function
-// NEW Error: Expected undefined to equal 'I can\'t hear you!'
-// -- fixed with return outPhrase1
-// NEW Error: Expected undefined to equal 'YES INDEED!'
-// -- fixed with return outPhrase2
-// NEW Error: Expected undefined to equal 'I love you, too.'
-// -- fixed with return outPhrase3
-  
 }
 
 /*
@@ -105,7 +79,7 @@ Main routine
  
 console.log("Starting to talk to Grandma.")
 
-// Try uppercase, lowercase, and mixed case 
+// Test uppercase, lowercase, and mixed case 
 sayHiToGrandma(shout('HELLO'))
 sayHiToGrandma(shout('hello'))
 sayHiToGrandma(shout('Hello'))
