@@ -29,7 +29,7 @@ function logShout(string) {
 function logWhisper(string) {
   var inWhisper = string
   console.log("I whispered", inWhisper) 
-  console.log('I should have whispered', string.toUpperCase())
+  console.log('I should have whispered', string.toLowerCase())
 //  console.log("I whispered", 'hello') // workaround FAILED to clear NEW Error: spy...
 //  console.log('hello') // workaround to clear NEW Error: spy...
 }
