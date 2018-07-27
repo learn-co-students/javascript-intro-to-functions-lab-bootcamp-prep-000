@@ -90,7 +90,8 @@ sayHiToGrandma('I love you, Grandma.')
 sayHiToGrandma('Can you hear me, Grandma?')
 
 console.log("Finished talking to Grandma.")
-// Editor Warning on line above: Missing semicolon./Too many errors. (94% scanned).
+// Editor Warning on line above: Missing semicolon./Too many errors. (93% scanned).
+
 /*
 End of my turn with Functions
  */
