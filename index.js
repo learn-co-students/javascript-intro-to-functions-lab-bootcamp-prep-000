@@ -20,18 +20,16 @@ function whisper(string) {
 
 function logShout(string) {
   var inShout = string
-  var loudShout = string.toUpperCase()
   console.log('I shouted', inShout)
-  console.log('I should have shouted')
-  console.log(string.toUpperCase())
+  console.log('I should have shouted', string.toUpperCase())
 //  console.log('I shouted','HELLO') // workaround FAILED to clear NEW Error: spy...
 //  console.log('HELLO') // workaround to clear NEW Error: spy...
 }
 
 function logWhisper(string) {
-  var quietWhisper = string.toLowerCase()
   var inWhisper = string
   console.log("I whispered", inWhisper) 
+  console.log('I should have whispered', string.toUpperCase())
 //  console.log("I whispered", 'hello') // workaround FAILED to clear NEW Error: spy...
 //  console.log('hello') // workaround to clear NEW Error: spy...
 }
