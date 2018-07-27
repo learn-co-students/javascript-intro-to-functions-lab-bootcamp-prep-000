@@ -20,15 +20,13 @@ function whisper(string) {
 
 function logShout(string) {
   var inShout = string
-  console.log('I shouted', inShout)
-  console.log('I should have shouted')
+  console.log('I shouted')
   console.log(string.toUpperCase())
 }
 
 function logWhisper(string) {
   var inWhisper = string
-  console.log("I whispered", inWhisper) 
-  console.log('I should have whispered')
+  console.log("I whispered")
   console.log(string.toLowerCase())
 }
 
@@ -90,7 +88,6 @@ sayHiToGrandma('I love you, Grandma.')
 sayHiToGrandma('Can you hear me, Grandma?')
 
 console.log("Finished talking to Grandma.")
-// Editor Warning on line above: Missing semicolon./Too many errors. (93% scanned).
 
 /*
 End of my turn with Functions
