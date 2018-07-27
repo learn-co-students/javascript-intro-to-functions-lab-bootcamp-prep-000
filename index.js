@@ -36,7 +36,7 @@ function logWhisper(string) {
  */
  
 function logShout(string) {
-  console.log(string.toUpperCase())
+  console.log("I shouted", string.toUpperCase())
 }
 
 function logWhisper(string) {
