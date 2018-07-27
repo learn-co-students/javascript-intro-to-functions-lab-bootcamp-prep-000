@@ -17,7 +17,7 @@ function whisper(string) {
   logWhisper(outWhisper)
   return outWhisper
 }
-
+/*
 function logShout(string) {
   var inShout = string
   console.log('I shouted',inShout)
@@ -32,6 +32,15 @@ function logWhisper(string) {
 //  console.log("I whispered", 'hello') // workaround FAILED to clear NEW Error: spy...
 //  console.log('hello') // workaround to clear NEW Error: spy...
   return inWhisper
+}
+ */
+ 
+function logShout(string) {
+  console.log(string.toUpperCase())
+}
+
+function logWhisper(string) {
+  console.log(string.toLowerCase())
 }
 
 function sayHiToGrandma(string) {
