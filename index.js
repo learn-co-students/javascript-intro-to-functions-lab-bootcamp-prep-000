@@ -17,10 +17,11 @@ function whisper(string) {
   logWhisper(outWhisper)
   return outWhisper
 }
-/*
+
 function logShout(string) {
   var inShout = string
-  console.log('I shouted',inShout)
+  console.log('I shouted')
+  console.log(inShout)
 //  console.log('I shouted','HELLO') // workaround FAILED to clear NEW Error: spy...
 //  console.log('HELLO') // workaround to clear NEW Error: spy...
   return inShout
@@ -28,13 +29,14 @@ function logShout(string) {
 
 function logWhisper(string) {
   var inWhisper = string
-  console.log("I whispered",inWhisper) 
+  console.log("I whispered")
+  console.log(inWhisper) 
 //  console.log("I whispered", 'hello') // workaround FAILED to clear NEW Error: spy...
 //  console.log('hello') // workaround to clear NEW Error: spy...
   return inWhisper
 }
- */
- 
+
+/*
 function logShout(string) {
   console.log("I shouted", string.toUpperCase())
 }
@@ -42,7 +44,7 @@ function logShout(string) {
 function logWhisper(string) {
   console.log(string.toLowerCase())
 }
-
+ */
 function sayHiToGrandma(string) {
 
   function logGrandmaReply (string) {
