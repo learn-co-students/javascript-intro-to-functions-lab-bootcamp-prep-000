@@ -42,7 +42,7 @@ function sayHiToGrandma(string) {
   var outPhrase1 = 'I can\'t hear you!'
   var outPhrase2 = 'YES INDEED!'
   var outPhrase3 = 'I love you, too.'
-  var noReply = " "
+  var noReply = "[with no reply]"
   
   console.log("Grandma tried to hear",inPhrase)
 
