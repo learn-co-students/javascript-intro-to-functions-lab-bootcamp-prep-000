@@ -7,18 +7,27 @@ function whisper(string) {
 }
 
 function sayHiToGrandma(string) {
-if (string == string.toUpperCase()) {
- return ('YES INDEED');
-}
-
-if (string == string.toLowerCaseCase()) {
- return ('I can\'t hear you!');
-}
-
-if (string == mixedCase.toLowerCaseCase()) {
- return ("I love you, too");
-}
-}
-
-
+ 
+  if (string === shout(string)) {
+   return ('YES INDEED!');
+  }
   
+  if (string === whisper(string)) {
+   return ('I can\'t hear you!');
+  }
+  
+  return ("I love you, too.");
+
+}
+
+function logShout(string) {
+  console.log (string.toUpperCase())
+}
+
+function logWhisper(string) {
+  console.log (string.toLowerCase())
+  
+}
+
+
+
