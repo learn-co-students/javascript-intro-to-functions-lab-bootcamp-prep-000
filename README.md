@@ -66,7 +66,7 @@ which says that it _expects_ a call to `shout()` with the string `'hello'` will 
 
 To run the tests, run `learn test` in the terminal in your Learn IDE. The first output you'll see will look like
 
-![test fail](https://s3.amazonaws.com/learn-verified/javascript-intro-to-functions-lab-0-tests-passing.png)
+![test fail](https://s3.amazonaws.com/learn-verified/javascript-intro-to-functions-lab-0-tests-passing-new.png)
 
 Hm, that's kind of disappointing. Let's see if we can get that first test to pass. Open up `index.js`.
 
@@ -107,7 +107,7 @@ And run our tests again:
 learn test
 ```
 
-![first test passing](https://s3.amazonaws.com/learn-verified/javascript-intro-to-functions-lab-1-test-passing.png)
+![first test passing](https://s3.amazonaws.com/learn-verified/javascript-intro-to-functions-lab-1-test-passing-new.png)
 
 Hey! We got one to pass!
 
