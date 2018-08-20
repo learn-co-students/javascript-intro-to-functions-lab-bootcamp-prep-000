@@ -1,7 +1,21 @@
 function shout(string) {return string.toUpperCase()}
 function whisper(string) {return string.toLowerCase()}
-function logShout(string) (console.log(HELLO))
-function logWhisper(string) (console.log(whisper))
+function logShout(string) (console.log("HELLO"))
+function logWhisper(string) (console.log("hello"))
+
+var lowercase = 'hello!'
+
+function sayHiToGrandma(string) {
+ 
+  if lowercase.toLowerCase() === lowercase
+  return("I can't hear you!")
+  
+  if else uppercase.toUpperCase() === uppercase
+  return("YES INDEED!")
+  
+  if string === ("I love you, Grandma")
+  return("I love you, too")
+}
 
 /*
 describe('shout(string)', function() {
@@ -53,13 +67,6 @@ describe('sayHiToGrandma(string)', function() {
     expect(sayHiToGrandma("I love you, Grandma.")).toEqual("I love you, too.")
   })
 })*/
-var lowercase = 'hello!'
-function sayHiToGrandma(string) {
-  if lowercase.toLowerCase() === lowercase
-  return("I can't hear you!")
-  if else uppercase.toUpperCase() === uppercase
-  return("YES INDEED!")
-}
 
 
  
