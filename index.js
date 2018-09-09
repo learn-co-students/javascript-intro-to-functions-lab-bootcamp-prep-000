@@ -1,9 +1,7 @@
 ('hello, world');
 describe('shout(string)',()=>{})
 
-Function shout(string){return string}
-'Hello!.toUpperCase()// 'HELLO!'
-
-var lowercase = 'hello!'
-
-funtion sayHiToGrandma() {console.log("i love you gandma)}
+console.log('Hello, Grandma')
+function sayHello(Grandma) { console.log ('Hello')}
+function sayHelloToGrandma() {console.log ("Hello, Grandma!")}
+sayHelloToGrandma()
