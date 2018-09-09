@@ -1,15 +1,9 @@
 ('hello, world');
 describe('shout(string)',()=>{})
+
+Function shout(string){return string}
 'Hello!.toUpperCase()// 'HELLO!'
 
-var uppercase = "HELLO!"
+var lowercase = 'hello!'
 
-uppercase.toUpperCase()=== uppercase//true
-
-var lowrcase = 'hello!'
-
-lowercase.toLowerCase() === lowercase //
-
-var mixedCase = 'Hi there!'
-
-mixedCase.toUpperCase() === mixedCase // false
+funtion sayHiToGrandma() {console.log("i love you gandma)}
