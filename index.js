@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 // TESTING
 const call = (string) => {
   string.toUpperCase();
@@ -26,13 +24,11 @@ console.log(typeof add()) // undefined
 function shout(string) {
   return string.toUpperCase()
 }
-
+//RETURNS
 function whisper(string) {
   return string.toLowerCase()
 }
 
-function logShout(string) {
-=======
 const shout = (string) => {
   return string.toUpperCase();
 }
@@ -44,9 +40,8 @@ const shout = (string) => {
 }
 
 // mixedCase return half toLowerCase & half to toUpperCase
+ //LOGS OUT
 function logShout(string) {
-    // return string.toLowerCase()
->>>>>>> d83798055b7e729402055fc12e6bda3e6325bc65
   console.log(string.toUpperCase())
 }
 
@@ -54,23 +49,6 @@ function logWhisper(string) {
   console.log(string.toLowerCase())
 }
 
-<<<<<<< HEAD
-function sayHiToGrandma(string) {
-  if (string.toLowerCase() === string) {
-    return "I can't hear you!"
-  }
-
-  if (string.toUpperCase() === string) {
-    return "YES INDEED!"
-  }
-
-  if (string === "I love you, Grandma.") {
-    return "I love you, too."
-  }
-
-  return "Are you eating enough?"
-}
-=======
 
 function sayHiToGrandma(string) {
    if(string.toLowerCase() === string) {
@@ -83,7 +61,3 @@ function sayHiToGrandma(string) {
     return "I love you, too."
    }
 }
-  
-
-
->>>>>>> d83798055b7e729402055fc12e6bda3e6325bc65
