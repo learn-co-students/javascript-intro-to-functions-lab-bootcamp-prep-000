@@ -15,11 +15,11 @@ function logWhisper(string) {
 }
 
 function sayHiToGrandma(string) {
-  if(string.valueOf() == "hello") {
+  if(string.valueOf() === "hello") {
     return "I can\'t hear you!";
-  } else if (string.valueOf() == "HELLO") {
+  } else if (string.valueOf() === "HELLO") {
     return "YES INDEED!";
-  } else if (string.valueOf() == "I love you, Grandma.") {
+  } else if (string.valueOf() === "I love you, Grandma.") {
     return "I love you, too."
   }
 }
