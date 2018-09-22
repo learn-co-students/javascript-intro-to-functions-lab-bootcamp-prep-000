@@ -8,17 +8,20 @@ function logShout(string) {
 console.log(string.toUpperCase());
  }
 function logWhisper(string) {
-  console.log(string.toLowerCase());
+ console.log(string.toLowerCase());
+ string.toUpperCase;
+ function spyOn() {
+ 
+ logShout('hello');
+ }
+ console.log(string);
 }
 function sayHiToGrandma(string) {
- var lowercase = 'hello!';
- var uppercase = 'HELLO!';
- var mixedcase = 'I love you, Grandma!';
- if (sayHiToGrandma === lowercase) {
- console.log('I can\'t hear you!'); }
-   else if (sayHiToGrandma === uppercase) {
-   console.log('YES INDEED!'); }
-      else if (sayHiToGrandma === mixedcase) {
-      console.log('I love you, too!'); }
- return;
+
+ if (string === string.toLowerCase()) {
+ return('I can\'t hear you!'); }
+   else if (string === string.toUpperCase()) {
+   return('YES INDEED!'); }
+      else if (string === 'I love you, Grandma.') {
+      return('I love you, too.'); }
  }
