@@ -7,7 +7,6 @@ JavaScript Intro to Functions Lab
 2. Explain basics of working with strings
 3. Explain the difference between `return` and logging
 4. Practice using `return` and `console.log()`
-
 ## Introduction
 
 Welcome to the JavaScript functions lab! You'll notice a few new things in this lesson that we haven't encountered before. Don't worry, we'll walk you through them.
