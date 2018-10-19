@@ -1,17 +1,17 @@
 
-describe('shout(string)', function(string) {
+describe('shout(string)', function('HELLO') {
   it('receives one argument and returns it in all caps', function() {
     expect(shout('hello')).toEqual('HELLO')
   })
 })
 
-describe('whisper(string)', function() {
+describe('whisper(string)', function('hello') {
   it('receives one argument and returns it in all lowercase', function() {
     expect(whisper('HELLO')).toEqual('hello')
   })
 })
 
-describe('logShout(string)', function() {
+describe('logShout(string)', function('hello') {
   it('calls console.log() its one argument in all caps', function() {
     const spy = expect.spyOn(console, 'log').andCallThrough()
 
@@ -23,7 +23,7 @@ describe('logShout(string)', function() {
   })
 })
 
-describe('logWhisper(string)', function() {
+describe('logWhisper(string)', function('hello') {
   it('calls console.log() its one argument in all lowercase', function() {
     const spy = expect.spyOn(console, 'log').andCallThrough()
 
