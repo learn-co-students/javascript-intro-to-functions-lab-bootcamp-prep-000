@@ -16,11 +16,11 @@ console.log(string.toLowerCase())
 
 function sayHiToGrandma(string) {
 if(string.toLowerCase() === string)
-  return('I can\'t hear you!')}
-else {(string.toUpperCase() === string)
-  return "YES INDEED!"}
-else if (true) {(string = 'I love you, Grandma.')
-  return "I love you too"}
+  return('I can\'t hear you!')
+}{ else (string.toUpperCase() === string)
+  return "YES INDEED!"
+}{ else if (true) (string = 'I love you, Grandma.')
+  return "I love you too"
 }
 //The first two work fine! For some reason the third one just won't work in whichever form.
 //Will resubmit later
