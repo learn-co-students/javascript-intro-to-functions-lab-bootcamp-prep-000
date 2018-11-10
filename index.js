@@ -1,4 +1,9 @@
+
 const string;
+
+function shout(string) {
+}
+
 
 function sayHiToGrandma(string){
   return string.toUpperCase()
