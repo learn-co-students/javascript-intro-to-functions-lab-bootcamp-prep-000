@@ -6,6 +6,11 @@ function whisper(string) {
   return string.toLowerCase()
 }
 
+
+// code is wrong from here
+
 function logShout(string) {
   return logShout.toUpperCase
 }
+
+// to here
