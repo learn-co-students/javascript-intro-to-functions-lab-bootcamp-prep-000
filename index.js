@@ -15,6 +15,7 @@ function logWhisper(pstring){
 }
 
 function sayHiToGrandma(pstring) {
+
   if (pstring.toUpperCase() === "I love you, Grandma.".toUpperCase())
     return ("I love you, too.")
   else if ( pstring === pstring.toLowerCase() )
@@ -24,4 +25,3 @@ function sayHiToGrandma(pstring) {
   else return ("Mixture case")  
    
 }
-
