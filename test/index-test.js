@@ -1,7 +1,7 @@
 
-describe('shout(string)', function() {
-  it('receives one argument and returns it in all caps', function() {
-    expect(shout('hello')).toEqual('HELLO')
+describe('shout(string)', () => {
+  it('receives one argument and returns it in all caps', () => {
+    // we'll get to this in a se
   })
 })
 
@@ -47,4 +47,3 @@ describe('sayHiToGrandma(string)', function() {
   it('returns "I love you, too." if `string` is "I love you, Grandma."`', function() {
     expect(sayHiToGrandma("I love you, Grandma.")).toEqual("I love you, too.")
   })
-})
