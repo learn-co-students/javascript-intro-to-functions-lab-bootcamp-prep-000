@@ -12,39 +12,28 @@ describe('whisper(string)', function() {
 })
 
 describe('logShout(string)', function() {
-  it('calls console.log() its one argument in all caps', function() {
-    const spy = expect.spyOn(console, 'log').andCallThrough()
-
-    logShout('hello')
-
-    expect(spy).toHaveBeenCalledWith('HELLO')
-
-    console.log.restore()
+  it('receives its one argument in all caps', function() {
+    expect(logShout('hello')).toEqual('HELLO')
   })
 })
 
 describe('logWhisper(string)', function() {
-  it('calls console.log() its one argument in all lowercase', function() {
-    const spy = expect.spyOn(console, 'log').andCallThrough()
-
-    logWhisper('HELLO')
-
-    expect(spy).toHaveBeenCalledWith('hello')
-
-    console.log.restore()
+  it('receives its one argument in all lowercase', function() {
+    expect(logWhisper('HELLO')).toEqual('hello')
   })
 })
 
 describe('sayHiToGrandma(string)', function() {
-  it('returns "I can\'t hear you!" if `string` is lowercase', function() {
-    expect(sayHiToGrandma('hello')).toEqual("I can't hear you!")
+  it( 'receives "i cant hear you" if `string` is lowercase', function() {
+    expect(sayHiToGrandma('i cant hear you')).toEqual("i cant hear you")
   })
 
-  it('returns "YES INDEED!" if `string` is uppercase', function() {
-    expect(sayHiToGrandma('HELLO')).toEqual("YES INDEED!")
+  it('receives "YES INDEED!" if `string` is uppercase', function() {
+    expect(sayHiToGrandma('yes indeed')).toEqual("yes indeed")
   })
 
-  it('returns "I love you, too." if `string` is "I love you, Grandma."`', function() {
-    expect(sayHiToGrandma("I love you, Grandma.")).toEqual("I love you, too.")
+  it('receives "i love you, too." if `string` is "i love you, grandma."`',
+  function() {
+    expect(sayHiToGrandma("i love you, too.")).toEqual("i love you, too.")
   })
 })
