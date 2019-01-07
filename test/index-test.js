@@ -11,6 +11,8 @@ describe('whisper(string)', function() {
   })
 })
 
+//Tests 1 and 2 are above
+
 describe('logShout(string)', function() {
   it('calls console.log() its one argument in all caps', function() {
     const spy = expect.spyOn(console, 'log').andCallThrough()
@@ -34,6 +36,8 @@ describe('logWhisper(string)', function() {
     console.log.restore()
   })
 })
+
+//Next to pass
 
 describe('sayHiToGrandma(string)', function() {
   it('returns "I can\'t hear you!" if `string` is lowercase', function() {
