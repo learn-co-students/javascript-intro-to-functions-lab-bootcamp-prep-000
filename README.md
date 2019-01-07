@@ -1,3 +1,4 @@
+clear
 JavaScript Intro to Functions Lab
 ---
 
