@@ -1,3 +1,7 @@
+const expect = require('expect')
+const fs = require('fs')
+const jsdom = require('mocha-jsdom')
+const path = require('path')
 
 describe('shout(string)', function() {
   it('receives one argument and returns it in all caps', function() {
