@@ -1,0 +1,5 @@
+function sayHiToGrandma(string){
+  if string===string.toLowerCase()
+    console.log("I CAN'T HEAR YOU")
+}
+sayHiToGrandma('hello')
