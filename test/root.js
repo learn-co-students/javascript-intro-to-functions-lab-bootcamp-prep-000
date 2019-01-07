@@ -28,3 +28,13 @@ before(function(done) {
     return done();
   });
 });
+function shout(string) { return string.toUppercase()
+}
+'Hello!'.toUppercase
+() //'Hello!'
+}
+
+funtion shout(string) {return string.toLowercase)
+console.log("I love you, Grandma")}
+
+'Hello'.toLowercase
