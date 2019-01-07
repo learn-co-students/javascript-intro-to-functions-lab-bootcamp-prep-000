@@ -1,4 +1,38 @@
 
+//------------ Function 1 ------------
+function shout(string) {
+  return string.toUpperCase();
+}
+console.log(shout("hi"))
+// ----------function 2 ------------------------
+function whisper(string) {
+    return string.toLowerCase();
+}
+console.log(whisper("HI"));
+
+//---------- Function 3 -----------------------
+function logShout(string) {
+   console.log(string.toUpperCase());
+}
+//---------- Function 4 -----------------------
+function logWhisper(string) {
+   console.log(string.toLowerCase());
+}
+// ---------Function 5 ----------------------
+function sayHiToGrandma(string){
+  var uppercase = string.toUpperCase();
+  var lowercase = string.toLowerCase();
+  if (string === uppercase){
+    return "YES INDEED!";
+  }
+  else if (string === lowercase){
+    return "I can't hear you!";
+  }
+  else if (string === "I love you, Grandma."){
+    return "I love you, too.";
+  }
+}
+//-----------------------------------------
 describe('shout(string)', function() {
   it('receives one argument and returns it in all caps', function() {
     expect(shout('hello')).toEqual('HELLO')
@@ -10,6 +44,8 @@ describe('whisper(string)', function() {
     expect(whisper('HELLO')).toEqual('hello')
   })
 })
+
+
 
 describe('logShout(string)', function() {
   it('calls console.log() its one argument in all caps', function() {
