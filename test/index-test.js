@@ -6,9 +6,11 @@ describe('shout(string)', function() {
 })
 
 describe('whisper(string)', function() {
+
   it('receives one argument and returns it in all lowercase', function() {
     expect(whisper('HELLO')).toEqual('hello')
   })
+
 })
 
 describe('logShout(string)', function() {
@@ -26,11 +28,8 @@ describe('logShout(string)', function() {
 describe('logWhisper(string)', function() {
   it('calls console.log() its one argument in all lowercase', function() {
     const spy = expect.spyOn(console, 'log').andCallThrough()
-
     logWhisper('HELLO')
-
     expect(spy).toHaveBeenCalledWith('hello')
-
     console.log.restore()
   })
 })
