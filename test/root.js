@@ -1,6 +1,6 @@
 global.expect = require('expect');
 
-const babel = require('babel-core');
+const babel = require('babel-core'); //library references for tests
 const jsdom = require('jsdom');
 const path = require('path');
 

@@ -1,9 +1,9 @@
 
-describe('shout(string)', function() {
-  it('receives one argument and returns it in all caps', function() {
-    expect(shout('hello')).toEqual('HELLO')
+describe('shout(string)', function() {                                           //shout is the function and string is the argument
+  it('receives one argument and returns it in all caps', function() {            //what should happen
+    expect(shout('hello')).toEqual('HELLO')                                      //this is the actual test
   })
-})
+}) //describe is function specific to Mocha (test app)
 
 describe('whisper(string)', function() {
   it('receives one argument and returns it in all lowercase', function() {
@@ -12,7 +12,7 @@ describe('whisper(string)', function() {
 })
 
 describe('logShout(string)', function() {
-  it('calls console.log() its one argument in all caps', function() {
+  it('calls console.log() its one argument in all caps', function() {           //console log on the argument in all caps
     const spy = expect.spyOn(console, 'log').andCallThrough()
 
     logShout('hello')
