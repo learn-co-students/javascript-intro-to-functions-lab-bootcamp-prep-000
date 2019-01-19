@@ -7,6 +7,7 @@ function whisper(string) {
 }
 
 function logShout(string) {
+
   console.log(string.toUpperCase())
 }
 
@@ -42,6 +43,10 @@ else if (string = "I love you, Grandma.")
 }
 
 }
+
+
+
+
 
 
 
