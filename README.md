@@ -1,4 +1,4 @@
-JavaScript Intro to Functions Lab
+(sting)JavaScript Intro to Functions Lab
 ---
 
 ## Objectives
