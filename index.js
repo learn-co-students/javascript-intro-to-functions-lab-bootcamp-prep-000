@@ -1,3 +1,8 @@
-describe('shout(hello)', function() {
-expect(shout('hello')).toEqual('HELLO')
-  })
+Function shout(String)
+{
+return
+ String.toUpperCase()
+}
+'Hello!' .toUpperCase()
+ // 'HELLO!'
+ 
