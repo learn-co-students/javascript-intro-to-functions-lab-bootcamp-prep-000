@@ -14,6 +14,7 @@ Welcome to the JavaScript functions lab! You'll notice a few new things in this 
 
 Even if you've walked through some of this material before, it's a good idea to review as we code-along — we're writing functions now, after all.
 
+
 ### Code-along
 
 For now, open up `index.js` in your text editor. You should see, well, nothing. We'll fix that soon.
