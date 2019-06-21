@@ -16,14 +16,14 @@ console.log ('HELLO')
 console.log ('hello')
 }
 
-function sayHiToGrandma(a,b,c) {
+function sayHiToGrandma(string) {
 
-if (b){
+if (string===b){
 return ("YES INDEED!")}
 
-if (a){
-return ("I can\'t hear you!")}
+else if (string===a){
+return ("I can't hear you!")}
 
-if (c)
-return ("I love you too")
+else if (string===c){
+return ("I love you, too.")}
 }
