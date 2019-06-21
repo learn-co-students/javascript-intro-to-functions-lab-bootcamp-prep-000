@@ -18,11 +18,11 @@ console.log ('hello')
 
 function sayHiToGrandma(a,b,c) {
 
-if (a){
-return ("I can\'t hear you!")}
-
 if (b){
 return ("YES INDEED!")}
+
+if (a){
+return ("I can\'t hear you!")}
 
 if (c)
 return ("I love you too")
