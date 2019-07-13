@@ -1,5 +1,8 @@
 var uppercase = "HELLO!"
+uppercase.toUpperCase() === uppercase
+
 var lowercase = "hello!"
+lowercase.toLowerCase() === lowercase
 
 var love = "I love you, Grandma."
 
@@ -22,22 +25,21 @@ function logWhisper(String){
   console.log(whisper(String))
 }
 
-function sayHiToGrandma(string){
-  
-  if("I love you, Grandma." === string){
-    console.log("I love you, too.")
+function sayHiToGrandma(String){
+  if(String === 'HELLO'){
+    return console.log("YES INDEED!")
+  } else if(String === 'hello'){
+    return console.log("I can't hear you!")
   }
   
-  
-  if(string.toUpperCase() === string){
-    console.log("YES INDEED!")
-  } else if(string.toLowerCase() === string){
-    console.log("I can't hear you!")
-  } 
-  
+  if(String === love){
+    return console.log("I love you, too.")
+  }
   
 }
 
+sayHiToGrandma(love)
+sayHiToGrandma(lowercase)
 sayHiToGrandma(uppercase)
 sayHiToGrandma(lowercase)
 sayHiToGrandma(love)
