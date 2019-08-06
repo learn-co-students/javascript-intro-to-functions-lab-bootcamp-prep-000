@@ -1,6 +1,8 @@
 var uppercase = "HELLO!"
 var lowercase = "hello!"
-var mixedCase = "I love you, Grandma."
+
+string.toUpperCase() === uppercase
+string.toLowerCase() === lowercase
 
 
 
