@@ -14,19 +14,19 @@ function logWhisper(name) {
   console.log(name.toLowerCase());
 }
 
-function sayHiToGrandma(name) {
-  if (name.toLowerCase() === name) {
-    return "I can\'t hear you!"
+function sayHiToGrandma(textt) {
+  if (textt.toLowerCase() === textt) {
+    return "I can't hear you!";
   }
   else {
-    return name;
+    return textt + "test";
   }
 }
-function sayHiToGrandma(name) {
-  if (name.toUpperCase() === name) {
-    return "YES INDEED!"
+function sayHiToGrandma(texttt) {
+  if (texttt.toUpperCase() === texttt) {
+    return "YES INDEED!";
   }else {
-    return name;
+    return texttt + "test";
   }
 }
 
