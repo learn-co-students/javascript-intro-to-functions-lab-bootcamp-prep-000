@@ -12,7 +12,7 @@ describe('whisper(string)', function() {
 })
 
 describe('logShout(string)', function() {
-  it('calls console.log() its one argument in all caps', function() {
+  it('takes a string argument and logs it in all caps using console.log()', function() {
     const spy = expect.spyOn(console, 'log').andCallThrough()
 
     logShout('hello')
@@ -24,7 +24,7 @@ describe('logShout(string)', function() {
 })
 
 describe('logWhisper(string)', function() {
-  it('calls console.log() its one argument in all lowercase', function() {
+  it('takes a string argument and logs it in all lowercase using console.log()', function() {
     const spy = expect.spyOn(console, 'log').andCallThrough()
 
     logWhisper('HELLO')
