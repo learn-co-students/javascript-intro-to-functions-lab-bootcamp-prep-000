@@ -302,6 +302,17 @@ hard of hearing, so whispering can be a bit difficult, but she'll always hear
 you if you say, "I love you, Grandma." This time, you will need to return
 different strings depending on the string passed into the function.
 
+> **Note:** Although there are 3 tests for `sayHiToGrandma()`, you only need to
+> write **one** function. This function should be able to handle all three test
+> conditions:
+>
+> - If the string that is passed into the function is all lowercase, the
+>   function should return "I can't hear you!"
+> - If the string that is passed into the function is all uppercase, the
+>   function should return "YES INDEED!"
+> - If the string that is passed into the function is equal to "I love you,
+>   Grandma.", the function should return "I love you, too."
+
 How do we check if a string is all lowercase or all uppercase?
 
 ```javascript
@@ -326,6 +337,10 @@ check). If it's the same, then it was already in that case; if not, then it's
 either in the other case or it's mixed case. Now that we know how to compare
 strings, how can we use these comparisons to conditionally return different
 strings?
+
+Remember that punctuation is important! Humans might be able to understand that
+"I love you Grandma" is close enough to "I love you, Grandma." and means the
+same thing but JavaScript will not consider these equal!
 
 Good luck! When all tests are passing, be sure to run `learn submit`!
 
