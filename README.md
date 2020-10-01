@@ -9,7 +9,7 @@
 
 ## Introduction
 
-Welcome to the JavaScript functions lab! You'll notice a few new things in this
+Welcome to the JavaScript functions lab! This is easy ans quick way to learn java script. You'll notice a few new things in this
 lesson that we haven't encountered before. Don't worry, we'll walk you through
 them.
 
