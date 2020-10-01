@@ -34,7 +34,7 @@ const jsdom = require('jsdom');
 const path = require('path');
 ```
 
-This might be a bit bewildering, but all we're doing is referencing different
+This might be a bit bewildering, but all we are doing is referencing different
 _libraries_ that help us run your tests. A library is code that someone else
 (usually multiple someone elses) wrote for our use. Note that `require` won't
 work out of the box in the browser. We're actually running our tests in a
@@ -332,7 +332,7 @@ mixedCase.toUpperCase() === mixedCase // false
 ```
 
 We can simply check whether the string is the same when we convert it to
-uppercase or lowercase! (The lines with the `===` comparisons are the ones that
+uppercase or lowercase! (The lines with the '===' comparisons are the ones that
 check). If it's the same, then it was already in that case; if not, then it's
 either in the other case or it's mixed case. Now that we know how to compare
 strings, how can we use these comparisons to conditionally return different
@@ -342,6 +342,6 @@ Remember that punctuation is important! Humans might be able to understand that
 "I love you Grandma" is close enough to "I love you, Grandma." and means the
 same thing but JavaScript will not consider these equal!
 
-Good luck! When all tests are passing, be sure to run `learn submit`!
+Good luck! When all tests are passing, be sure to run 'learn submit'!
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/javascript-intro-to-functions-lab'>Intro to Functions Lab</a> on Learn.co and start learning to code for free.</p>
