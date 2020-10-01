@@ -9,8 +9,8 @@
 
 ## Introduction
 
-Welcome to the JavaScript functions lab! You'll notice a few new things in this
-lesson that we haven't encountered before. Don't worry, we'll walk you through
+Hey everyone ,welcome to the JavaScript functions lab! You'll notice a few new things in this
+lesson that we haven't encountered before. Don't worry, we'll make you walk through
 them.
 
 Even if you've walked through some of this material before, it's a good idea to
