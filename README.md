@@ -78,7 +78,7 @@ which says that it _expects_ a call to `shout()` with the string `'hello'` will
 expectation, or assertion — for this function. We can have more than one test
 per function, but let's start with this one.
 
-### Running the Tests
+###Running the Tests
 
 To run the tests, run `learn test` in the terminal in your Learn IDE. The first
 output you'll see will look like
@@ -157,7 +157,7 @@ output you'll see will look like
 npm ERR! Test failed.  See above for more details.
 ```
 
-Hm, seven failed tests. Let's see if we can get that _first_ test to
+Hmm, seven failed tests. Let's see if we can get that _first_ test to
 pass. Open up `index.js`.
 
 When we write our code, we follow the guidance of the tests. Remember the line,
@@ -267,7 +267,7 @@ npm ERR! Test failed.  See above for more details.
 
 Hey! We got one to pass! Six left.
 
-## Your Turn
+## Your Turn to Do
 
 Now it's your turn to get the rest of the tests to pass. Note that some of them
 require you to use `console.log()` instead of `return` — follow the guidance of
