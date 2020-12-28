@@ -55,7 +55,7 @@ Let's take a closer look at that `describe()`:
 
 ``` javascript
 describe('shout(string)', function(){
-  it('receives one argument and returns it in all caps', function() => {
+  it('receives one argument and returns it in all caps', function() {
     // we'll get to this in a sec
   })
 })
@@ -284,7 +284,7 @@ whisper or they shout. The next test is similar to the first:
       at processImmediate (internal/timers.js:456:21)
 ```
 
-This test is telling us that `whisper(string)` received one argument and returns
+This test is telling us that `whisper(string)` receives one argument and returns
 it in all lowercase. At the moment, the test is failing becasue whisper is not
 defined.
 
