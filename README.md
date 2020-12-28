@@ -43,7 +43,7 @@ different _environment_.
 If you go to `test/index-test.js`, you'll see
 
 ``` javascript
-describe('shout(string)', function() => {
+describe('shout(string)', function(){
   // there's stuff in here, too
 })
 ```
@@ -54,7 +54,7 @@ describe('shout(string)', function() => {
 Let's take a closer look at that `describe()`:
 
 ``` javascript
-describe('shout(string)', function() => {
+describe('shout(string)', function(){
   it('receives one argument and returns it in all caps', function() => {
     // we'll get to this in a sec
   })
@@ -161,7 +161,7 @@ Hm, seven failed tests. Let's see if we can get that _first_ test to
 pass. Open up `index.js`.
 
 When we write our code, we follow the guidance of the tests. Remember the line,
-`describe('shout(string)', () => { ... })`. Well, we know that we need a
+`describe('shout(string)', function() { ... })`. Well, we know that we need a
 function called `shout` that accepts an argument — let's add that first. In
 `index.js`:
 
