@@ -10,7 +10,7 @@ before(function(done) {
       presets: ['es2015']
     }
   );
-
+  
   const html = path.resolve(__dirname, '..', 'index.html')
 
   jsdom.env(html, [], {
