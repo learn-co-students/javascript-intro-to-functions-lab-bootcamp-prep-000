@@ -1,0 +1,2 @@
+'Hello!' {.toUppercase() }
+'HELLO'.tolowercase()
