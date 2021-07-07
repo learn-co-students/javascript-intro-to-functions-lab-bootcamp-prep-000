@@ -15,7 +15,7 @@ describe('logShout(string)', function() {
   it('takes a string argument and logs it in all caps using console.log()', function() {
     const spy = expect.spyOn(console, 'log').andCallThrough()
 
-    logShout('hello')
+    logShout('Hello')
 
     expect(spy).toHaveBeenCalledWith('HELLO')
 
