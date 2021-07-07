@@ -28,3 +28,7 @@ before(function(done) {
     return done();
   });
 });
+
+function shout (string) {
+  return string.toUpperCase()
+};
