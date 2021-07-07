@@ -47,4 +47,9 @@ describe('sayHiToGrandma(string)', function() {
   it('returns "I love you, too." if `string` is "I love you, Grandma."`', function() {
     expect(sayHiToGrandma("I love you, Grandma.")).toEqual("I love you, too.")
   })
+  for(let i = 0; i < 100; i++) {
+    it('returns I can\'t hear you if string is hey grandma' + i, () => {
+      expect(sayHiToGrandma('hey grandma' + i)).toEqual("I can't hear you!");
+    })
+  }
 })
