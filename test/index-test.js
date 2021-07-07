@@ -33,6 +33,7 @@ describe('logWhisper(string)', function() {
 
     console.log.restore()
   })
+
 })
 
 describe('sayHiToGrandma(string)', function() {
