@@ -28,3 +28,13 @@ before(function(done) {
     return done();
   });
 });
+    presets: ['es2015']
+  });
+   jsdom.env('<div></div>', [], {src: babelResult.code}, (err, window) => {
+  jsdom.env('<div></div>', [], {
+    src: babelResult.code,
+    virtualConsole: jsdom.createVirtualConsole().sendTo(console)
+  }, (err, window) => {
+    if (err) {
+      return done(err);
+    }
