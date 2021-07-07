@@ -21,7 +21,7 @@ describe('logShout(string)', function() {
 
     console.log.restore()
   })
-})
+})   
 
 describe('logWhisper(string)', function() {
   it('takes a string argument and logs it in all lowercase using console.log()', function() {
