@@ -3,6 +3,10 @@ describe('shout(string)', function() {
   it('receives one argument and returns it in all caps', function() {
     expect(shout('hello')).toEqual('HELLO')
   })
+
+  it('receives another argument and returns it in all caps too', function() {
+    expect(shout('hola')).toEqual('HOLA')
+  })
 })
 
 describe('whisper(string)', function() {
